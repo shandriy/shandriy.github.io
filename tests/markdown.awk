@@ -13,13 +13,13 @@ BEGIN {
       new = "<li>" capture[1] "</li>"
       if (state == 0) {
         state = 1
-        new = "<ul>" new
+        new = "<ul>\n" new
       }
       current = new
     } else {
       if (state == 1 && !match(current, /^(<ul>|<li>)(.*)$/)) {
         state = 0
-        current = "</ul>" current
+        current = "</ul>\n" current
       }
       possible_matches--
     }
@@ -80,11 +80,6 @@ BEGIN {
 
   if (match(current, /^([^<].*)/, capture)) {
     new = "<p>" capture[1] "</p>"
-    current = new
-  }
-
-  if (match(current, /^<\/ul>(.*)/, capture)) {
-    new = "</ul><p>" capture[1] "</p>"
     current = new
   }
 

@@ -27,3 +27,4 @@ generic.htm
 - Added custom-styled webring list
 - Added mobile layout support with media queries
 - Added daily song
+
