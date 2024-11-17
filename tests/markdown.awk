@@ -38,6 +38,13 @@ BEGIN {
       possible_matches--
     }
 
+    if (match(current, /^(.*)~{2}([^~]{1,})~{2}(.*)$/, capture)) {
+      new = capture[1] "<del>" capture[2] "</del>" capture[3]
+      current = new
+    } else {
+      possible_matches--
+    }
+
     if (match(current, /^(.*)~([^~]{1,})~(.*)$/, capture)) {
       new = capture[1] "<sub>" capture[2] "</sub>" capture[3]
       current = new

@@ -4,7 +4,9 @@ generic.htm
 
 ### 17/11/2024
 
-- Add support for code block syntax
+- Loading Vocaring no longer requires JavaScript
+- Fix error where ~~deleted text~~ shows up as a ~subscript~
+- Add support for `code` sections
 - Switch to experimental custom Markdown parser written in `awk`
 
 ### 16/11/2024
