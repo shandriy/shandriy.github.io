@@ -107,7 +107,8 @@ do
     # markdown-smart disables curly qoutes
     # Using markdown+smart enables it
 
-    markdown_contents=$(pandoc "$GENERATED_DIR/tmp.txt" -f markdown-smart)
+    # markdown_contents=$(pandoc "$GENERATED_DIR/tmp.txt" -f markdown-smart)
+    markdown_contents=$(cat "$GENERATED_DIR/tmp.txt" | sed -f tests/markdown.sed)
     template_name=$(head -n 1 "$line")
     template_text=""
 
