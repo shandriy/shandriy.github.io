@@ -108,7 +108,8 @@ do
     # Using markdown+smart enables it
 
     # markdown_contents=$(pandoc "$GENERATED_DIR/tmp.txt" -f markdown-smart)
-    markdown_contents=$(cat "$GENERATED_DIR/tmp.txt" | sed -f tests/markdown.sed)
+    #markdown_contents=$(cat "$GENERATED_DIR/tmp.txt" | sed -f tests/markdown.sed)
+    markdown_contents=$(awk -f "tests/markdown.awk" "$GENERATED_DIR/tmp.txt")
     template_name=$(head -n 1 "$line")
     template_text=""
 
