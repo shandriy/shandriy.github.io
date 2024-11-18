@@ -4,6 +4,7 @@ generic.htm
 
 ### 17/11/2024
 
+- Added [first blog post](/notes/2024/11/17.htm).
 - Loading Vocaring no longer requires JavaScript
 - Fix error where ~~deleted text~~ shows up as a ~subscript~
 - Add support for `code` sections
@@ -21,7 +22,7 @@ generic.htm
 
 ### 14/11/2024
 
-- Added 404 page for GitHub pages
+- Added [404 page](/404.html) for GitHub pages
 - Added changelog page
 - Added buttons to other sites
 - Added custom-styled webring list
