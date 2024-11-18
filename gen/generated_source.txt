@@ -1,3 +1,8 @@
 ./md
 ./md/changelog.md
 ./md/index.md
+./md/notes
+./md/notes/2024
+./md/notes/2024/11
+./md/notes/2024/11/17.md
+./md/notes/index.md

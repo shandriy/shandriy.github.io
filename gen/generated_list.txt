@@ -1,2 +1,7 @@
 ./changelog.htm
 ./index.htm
+./notes
+./notes/2024
+./notes/2024/11
+./notes/2024/11/17.htm
+./notes/index.htm
