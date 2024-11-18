@@ -1,0 +1,48 @@
+.serif {
+  font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga=0";
+  -moz-font-feature-settings: "liga" 0;
+  -webkit-font-feature-settings: "liga" 0;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  font-stretch: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-variant-alternates: normal;
+  font-variation-settings: normal;
+  font-synthesis: style small-caps weight position;
+  font-family: "Liberation Serif", "Times New Roman", Times, serif;
+}
+.sans-serif {
+  font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga=0";
+  -moz-font-feature-settings: "liga" 0;
+  -webkit-font-feature-settings: "liga" 0;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  font-stretch: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-variant-alternates: normal;
+  font-variation-settings: normal;
+  font-synthesis: style small-caps weight position;
+  font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+}
+.monospace {
+  font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga=0";
+  -moz-font-feature-settings: "liga" 0;
+  -webkit-font-feature-settings: "liga" 0;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  font-stretch: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-variant-alternates: normal;
+  font-variation-settings: normal;
+  font-synthesis: style small-caps weight position;
+  font-family: "Liberation Mono", "Courier New", Courier, monospace;
+}
