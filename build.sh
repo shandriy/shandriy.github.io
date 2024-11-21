@@ -104,7 +104,7 @@ do
 
     tail -n +2 "$line" > "$GENERATED_DIR/tmp.txt"
 
-    # markdown-smart disables curly qoutes
+    # markdown-smart disables curly quotes
     # Using markdown+smart enables it
 
     markdown_contents=$(pandoc "$GENERATED_DIR/tmp.txt" -f markdown-smart)
