@@ -2,6 +2,10 @@ generic.htm
 
 ## Changelog
 
+### 23/11/2024
+
+- Added unique visit counter with [digits.net](https://digits.net).
+
 ### 17/11/2024
 
 - Added [first blog post](/notes/2024/11/17.htm).
