@@ -87,7 +87,7 @@ printf '  <link href="http://shandriy.github.io/atom.xml" rel="self"/>
 ' >> "atom.xml"
 printf '  <link href="http://shandriy.github.io"/>
 ' >> "atom.xml"
-printf '  <updated>2003-12-13T18:30:02Z</updated>
+printf '  <updated></updated>
 ' >> "atom.xml"
 printf '  <author>
 ' >> "atom.xml"
@@ -152,8 +152,11 @@ do
       echo $markdown_contents >> "atom.xml"
       printf '    </content>
 ' >> "atom.xml"
-      printf '    <title>'$template_name'</title>
-' >> "atom.xml"
+
+      title_start=${markdown_contents#* - }
+      title=${title_start%%</h2>*}
+
+      echo "<title>$title</title>" >> "atom.xml"
       printf '    <link href="'${output_path%.md}.htm'"/>
 ' >> "atom.xml"
       printf '    <id>'${output_path%.md}.htm'</id>
