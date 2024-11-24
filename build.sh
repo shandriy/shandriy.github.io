@@ -157,7 +157,7 @@ do
       title=${title_start%%</h2>*}
 
       echo "<title>$title</title>" >> "atom.xml"
-      printf '    <link href="'${output_path%.md}.htm'"/>
+      printf '    <link href="https://shandriy.github.io/'${output_path%.md}.htm'"/>
 ' >> "atom.xml"
       printf '    <id>'${output_path%.md}.htm'</id>
 ' >> "atom.xml"
