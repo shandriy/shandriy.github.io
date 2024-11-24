@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>FULLERENE</title>
-  <link rel="stylesheet" href="/static/style.css?t=1732480066">
+  <link rel="stylesheet" href="/static/style.css?t=1732480209">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
@@ -33,7 +33,7 @@ font-variant-ligatures: none;
 <p>That's a lot just to disable font ligatures, but in my eyes it's worth it. Older versions of <code>font-feature-settings</code> on FireFox had a different syntax, which is why the line <code>-moz-font-feature-settings: "liga=0";</code> is needed.</p>
 <h3 id="remaining-fonts">Remaining Fonts</h3>
 <p>Is that it? No. The one final thing not addressed is the most cross-compatible monospaced font. This isn't really complicated, and follows the same pattern as all the other fonts. Using the <a href="https://wiki.archlinux.org/title/Metric-compatible_fonts">archlinux wiki</a>, I got the font stack <code>"Liberation Mono", "Courier New", Courier, monospace</code>.</p>
-<p>The generic values for <code>font-family</code> also include <code>system-ui</code>, <code>cursive</code>, <code>fantasy</code>, and <code>math</code>. However, <code>system-ui</code> is dependant on your operating system, <code>cursive</code> defaults to Comic Sans on Windows, which isn't even cursive and more importantly I doubt anyone has made any metrically compatible fonts to it that <em>are</em> cursive. I can't seem to find what the default font for <code>cursive</code> is on MacOS anyways, so I'm just not gonna do it. <code>fantasy</code> on Windows default to Arial for some reason, and <code>math</code> to Times New Roman, so it makes sense to just support PostScript Level 1 core fonts, since those are the only ones standardized. Technically Symbol is also included in PostScript Level 1 but that can't really be substituted.</p>
+<p>The generic values for <code>font-family</code> also include <code>system-ui</code>, <code>cursive</code>, <code>fantasy</code>, and <code>math</code>. However, <code>system-ui</code> is dependant on your operating system, <code>cursive</code> defaults to Comic Sans on Windows, which isn't even cursive and more importantly I doubt anyone has made any metrically compatible fonts to it that <em>are</em> cursive. I can't seem to find what the default font for <code>cursive</code> is on MacOS anyways, so I'm just not gonna do it. <code>fantasy</code> on Windows defaults to Arial for some reason, and <code>math</code> to Times New Roman, so it makes sense to just support PostScript Level 1 core fonts, since those are the only ones standardized. Technically Symbol is also included in PostScript Level 1 but that can't really be substituted.</p>
 <h3 id="tldr">TL;DR</h3>
 <div class="sourceCode" id="cb2"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="fu">.serif</span> {</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>  <span class="kw">font-feature-settings</span>: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
@@ -89,7 +89,7 @@ font-variant-ligatures: none;
       <div id="footer-large">
         <hr>
         <sub>
-          Last updated <a href="https://github.com/shandriy/shandriy.github.io/commits">2024-11-24 12:27:46.442222691 -08:00:00</a>.
+          Last updated <a href="https://github.com/shandriy/shandriy.github.io/commits">2024-11-24 12:30:09.028958448 -08:00:00</a>.
         </sub>
         <sub>Hand-coded by &#64;shandriy on GitHub @fulerene on Discord - Tested on Firefox 132.0.1 64-bit Windows and Chrome 1.0.154.59 Windows.</sub>
         <sub>
@@ -203,7 +203,7 @@ font-variant-ligatures: none;
   <div id="footer-small">
     <hr>
     <sub>
-      Last updated <a href="https://github.com/shandriy/shandriy.github.io/commits">2024-11-24 12:27:46.442222691 -08:00:00</a>.
+      Last updated <a href="https://github.com/shandriy/shandriy.github.io/commits">2024-11-24 12:30:09.028958448 -08:00:00</a>.
     </sub>
     <sub>Hand-coded by &#64;shandriy on GitHub @fulerene on Discord - Tested on Firefox 132.0.1 64-bit Windows and Chrome 1.0.154.59 Windows.</sub>
     <sub>

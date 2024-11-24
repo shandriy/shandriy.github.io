@@ -25,13 +25,13 @@ generic.htm
 
 - Added [first blog post](/notes/2024/11/17.htm).
 - Loading Vocaring no longer requires JavaScript
-- Fix error where ~~deleted text~~ shows up as a ~subscript~
-- Add support for `code` sections
-- Switch to experimental custom Markdown parser written in `awk`
+- Fixed error where ~~deleted text~~ shows up as a ~subscript~
+- Added support for `code` sections
+- Switched to experimental custom Markdown parser written in `awk`
 
 ### 16/11/2024
 
-- Switch to experimental custom Markdown parser written in `sed`
+- Switched to experimental custom Markdown parser written in `sed`
 
 ### 15/11/2024
 
