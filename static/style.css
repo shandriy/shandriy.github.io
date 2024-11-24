@@ -1,5 +1,11 @@
 html, body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga=0";
+  -moz-font-feature-settings: "liga" 0;
+  -webkit-font-feature-settings: "liga" 0;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
   background-color: #000;
   margin: 0;
   padding: 0;
