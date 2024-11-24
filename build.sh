@@ -161,9 +161,13 @@ do
       echo "    <updated>$reformatted_update</updated>" >> "atom.xml"
 
       summary_start="${markdown_contents#*\<h3}"
-      summary=\<h3${summary_start%%\<h3*}
+      summary_start_paragraph=${summary_start#*\<p\>}
+      summary=${summary_start_paragraph%%\</p\>*}...
 
-      echo "    <summary>$summary...</summary>" >> "atom.xml"
+      echo $summary > "$GENERATED_DIR/tmp.htm"
+      summary=$(lynx --dump "$GENERATED_DIR/tmp.htm")
+
+      echo "    <summary>$summary</summary>" >> "atom.xml"
       printf '  </entry>
 ' >> "atom.xml"
       printf '</feed>' >> "atom.xml"
@@ -231,3 +235,4 @@ done < "$GENERATED_SOURCE_LISTING"
 # Clear no longer needed files
 
 rm -f "$GENERATED_DIR/tmp.txt"
+rm -f "$GENERATED_DIR/tmp.htm"

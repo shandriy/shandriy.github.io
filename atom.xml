@@ -15,20 +15,12 @@
     <link href="https://shandriy.github.io/./notes/2024/11/23.htm"/>
     <id>./notes/2024/11/23.htm</id>
     <updated>2024-11-23T00:00:00.000Z</updated>
-    <summary><h3 id="what-makes-cross-compatibility-hard">What Makes Cross-Compatibility Hard</h3>
-<p>As I've mentioned in my <a href="/notes/2024/11/17.htm">previous blog post</a>, home page, and probably more pages as time goes on, I really, <em>really</em>, care about backwards-compatibility and cross-compatibility.</p>
-<p>The only problem is, full backwards and cross-compatibility is impossible. This is probably obvious but I'm gonna rant about it nevertheless just to show exactly why this is bothering me so much.</p>
-<p>When most people think of cross-compatibility, they think of something like an app that works on Mac, Linux, and Windows - maybe mobile platforms too - iOS and Android. There are a few problems with this though:</p>
-<ol type="1">
-<li>Versions for Mac, Linux, and Windows often need to be slightly modified to compile properly or run as expected.</li>
-<li>An app made for desktop and mobile is often just two different apps entirely - I want cross-compatibility as in the same app running everywhere; this just isn't the same, and requires a lot of work.</li>
-<li>APIs: Different OSs will have different APIs, which makes UI, graphics, and many other things a pain to make cross-compatible; there a few solutions to rendering graphics specifically:
-<ul>
-<li>To make the app render the same everywhere, abstract away system calls as much as possible; no more system UI, no more system fonts, etc. Everything is entirely controlled by the app or library, at the cost of making everything look slightly odd everywhere and likely slower performance and more bugs - I believe this is what Java does (or used to do).</li>
-<li>Not making the app render the same everywhere - just use system APIs, fonts, UIs, etc. It'll look close enough. Of course this provides a better experience on every platform in general, but when I say cross-compatibility - I want <em>everything</em> to be as similar as possible.</li>
-<li>To make the app render the same everywhere, just use WebView/Chromium. From my experience, this seems to be the most common solution now in 2024. But this has heavy performance costs - only write JavaScript if you're making a website - and on that note, why not make a website instead?</li>
-</ul></li>
-</ol>
-...</summary>
+    <summary>   As I've mentioned in my [1]previous blog post, home page, and probably
+   more pages as time goes on, I really, really, care about
+   backwards-compatibility and cross-compatibility....
+
+References
+
+   1. file:///notes/2024/11/17.htm</summary>
   </entry>
 </feed>
