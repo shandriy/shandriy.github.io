@@ -2,7 +2,7 @@ generic.htm
 
 ## To Do
 
-- Add an RSS or Atom feed
+- ~~Add an RSS or Atom feed~~
 - Finish custom Markdown parser
 - Rewrite static site generator
 
@@ -10,6 +10,7 @@ generic.htm
 
 ### 23/11/2024
 
+- Added Atom feed; incomplete, still testing
 - Added to-do list
 - Updated CSS font stack to be more cross-compatible
 - Added [new blog post](/notes/2024/11/23.htm)

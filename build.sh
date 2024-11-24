@@ -5,7 +5,7 @@
 cd $(dirname $0)
 
 # Search for configuration script and execute it
-# Initilizes constant variables and paths
+# Initializes constant variables and paths
 
 if [ -f "./config.sh" ]
 then
@@ -20,7 +20,7 @@ then
 else
 
   # If no configuration file has been found,
-  # initalize global variables to defaults
+  # initialize global variables to defaults
 
   SOURCE_DIR="./.src"
   TEMPLATE_DIR="./.tmp"
@@ -73,6 +73,31 @@ fi
 
 find "$SOURCE_DIR" > "$GENERATED_SOURCE_LISTING"
 
+# Generate Atom feed
+
+printf '<?xml version="1.0" encoding="utf-8"?>
+' > "atom.xml"
+printf '<feed xmlns="http://www.w3.org/2005/Atom">
+' >> "atom.xml"
+printf '  <title>OVER THE FULLERENESHIFT</title>
+' >> "atom.xml"
+printf '  <subtitle>Personal website.</subtitle>
+' >> "atom.xml"
+printf '  <link href="http://shandriy.github.io/atom.xml" rel="self"/>
+' >> "atom.xml"
+printf '  <link href="http://shandriy.github.io"/>
+' >> "atom.xml"
+printf '  <updated>2003-12-13T18:30:02Z</updated>
+' >> "atom.xml"
+printf '  <author>
+' >> "atom.xml"
+printf '    <name>Shandriy</name>
+' >> "atom.xml"
+printf '  </author>
+' >> "atom.xml"
+printf '  <id>http://shandriy.github.io</id>
+' >> "atom.xml"
+
 # Loop other every path listed in the source directory
 
 while read line
@@ -112,6 +137,35 @@ do
     #markdown_contents=$(awk -f "tests/markdown.awk" "$GENERATED_DIR/tmp.txt")
     template_name=$(head -n 1 "$line")
     template_text=""
+
+    # Add entry to Atom feed if it's a blog post
+    # This is very specific to my personal directory layout, so I'll
+    # try to change this as soon as possible
+
+    if [ "${output_path%%/2*}" = "./notes" ]
+    then
+
+      printf '  <entry>
+' >> "atom.xml"
+      printf '    <content type="text/html">
+' >> "atom.xml"
+      echo $markdown_contents >> "atom.xml"
+      printf '    </content>
+' >> "atom.xml"
+      printf '    <title>'$template_name'</title>
+' >> "atom.xml"
+      printf '    <link href="'${output_path%.md}.htm'"/>
+' >> "atom.xml"
+      printf '    <id>'${output_path%.md}.htm'</id>
+' >> "atom.xml"
+      printf '    <updated></updated>
+' >> "atom.xml"
+      printf '    <summary></summary>
+' >> "atom.xml"
+      printf '  </entry>
+' >> "atom.xml"
+
+    fi
 
     # Check that the provided template exists
 
@@ -174,3 +228,5 @@ done < "$GENERATED_SOURCE_LISTING"
 # Clear no longer needed files
 
 rm -f "$GENERATED_DIR/tmp.txt"
+
+printf '</feed>' >> "atom.xml"
