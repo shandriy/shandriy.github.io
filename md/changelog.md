@@ -2,11 +2,15 @@ generic.htm
 
 ## To Do
 
-- ~~Add an RSS or Atom feed~~
+- Add RSS feed
 - Finish custom Markdown parser
 - Rewrite static site generator
 
 ## Changelog
+
+### 24/11/2024
+
+- Added summary to Atom feed
 
 ### 23/11/2024
 
