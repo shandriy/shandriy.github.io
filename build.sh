@@ -73,31 +73,6 @@ fi
 
 find "$SOURCE_DIR" > "$GENERATED_SOURCE_LISTING"
 
-# Generate Atom feed
-
-printf '<?xml version="1.0" encoding="utf-8"?>
-' > "atom.xml"
-printf '<feed xmlns="http://www.w3.org/2005/Atom">
-' >> "atom.xml"
-printf '  <title>OVER THE FULLERENESHIFT</title>
-' >> "atom.xml"
-printf '  <subtitle>Personal website.</subtitle>
-' >> "atom.xml"
-printf '  <link href="http://shandriy.github.io/atom.xml" rel="self"/>
-' >> "atom.xml"
-printf '  <link href="http://shandriy.github.io"/>
-' >> "atom.xml"
-printf '  <updated></updated>
-' >> "atom.xml"
-printf '  <author>
-' >> "atom.xml"
-printf '    <name>Shandriy</name>
-' >> "atom.xml"
-printf '  </author>
-' >> "atom.xml"
-printf '  <id>http://shandriy.github.io</id>
-' >> "atom.xml"
-
 # Loop other every path listed in the source directory
 
 while read line
@@ -145,28 +120,53 @@ do
     if [ "${output_path%%/2*}" = "./notes" ]
     then
 
+      update_start=${markdown_contents#*>}
+      update=${update_start%% - *}
+      month_start=${update#*/}
+      reformatted_update=${update##*/}-${month_start%/*}-${update%%/*}T00:00:00.000Z
+
+      printf '<?xml version="1.0" encoding="utf-8"?>
+' > "atom.xml"
+      printf '<feed xmlns="http://www.w3.org/2005/Atom">
+' >> "atom.xml"
+      printf '  <title>OVER THE FULLERENESHIFT</title>
+' >> "atom.xml"
+      printf '  <subtitle>Personal website.</subtitle>
+' >> "atom.xml"
+      printf '  <link href="http://shandriy.github.io/atom.xml" rel="self"/>
+' >> "atom.xml"
+      printf '  <link href="http://shandriy.github.io"/>
+' >> "atom.xml"
+      echo "  <updated>$reformatted_update</updated>" >> "atom.xml"
+      printf '  <author>
+' >> "atom.xml"
+      printf '    <name>Shandriy</name>
+' >> "atom.xml"
+      printf '  </author>
+' >> "atom.xml"
+      printf '  <id>http://shandriy.github.io</id>
+' >> "atom.xml"
       printf '  <entry>
 ' >> "atom.xml"
-      printf '    <content type="text/html">
-' >> "atom.xml"
-      echo $markdown_contents >> "atom.xml"
-      printf '    </content>
+      printf '    <content></content>
 ' >> "atom.xml"
 
       title_start=${markdown_contents#* - }
       title=${title_start%%</h2>*}
 
-      echo "<title>$title</title>" >> "atom.xml"
-      printf '    <link href="https://shandriy.github.io/'${output_path%.md}.htm'"/>
-' >> "atom.xml"
+      echo "    <title>$title</title>" >> "atom.xml"
+      echo '    <link href="https://shandriy.github.io/'${output_path%.md}.htm'"/>' >> "atom.xml"
       printf '    <id>'${output_path%.md}.htm'</id>
 ' >> "atom.xml"
-      printf '    <updated></updated>
-' >> "atom.xml"
-      printf '    <summary></summary>
-' >> "atom.xml"
+      echo "    <updated>$reformatted_update</updated>" >> "atom.xml"
+
+      summary_start="${markdown_contents#*\<h3}"
+      summary=\<h3${summary_start%%\<h3*}
+
+      echo "    <summary>$summary...</summary>" >> "atom.xml"
       printf '  </entry>
 ' >> "atom.xml"
+      printf '</feed>' >> "atom.xml"
 
     fi
 
@@ -231,5 +231,3 @@ done < "$GENERATED_SOURCE_LISTING"
 # Clear no longer needed files
 
 rm -f "$GENERATED_DIR/tmp.txt"
-
-printf '</feed>' >> "atom.xml"
