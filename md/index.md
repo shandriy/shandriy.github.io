@@ -37,7 +37,7 @@ This list isn't exactly in order and probably missing a lot. I'll continue updat
 
 I have a tendency to restart unfinished projects a lot so if this website looks terrible - it's partially because I want it to look simple and be lightweight, without having to load fonts and as cross-platform as possible. It's also just because I tried to get it up as fast as possible without worrying about styling. I'll do that later. For now I'll just try to get some content on this.
 
-So far there are no other pages. I had a few blog posts on my old website but I don't like them anymore so I won't be transfering them here.
+~~So far there are no other pages. I had a few blog posts on my old website but I don't like them anymore so I won't be transfering them here.~~ Check out my blog [here](/notes/index.htm)! I might also add an archive of my old website eventually.
 
 ## Projects
 
@@ -58,9 +58,7 @@ Links to some random pages I like:
 
 At the moment, my goals for this site (and in general) are:
 
-- ~~Make a better SSG~~ Done! The new SSG is written in POSIX Shell and basically gets variables from a custom script and substitutes them into the templates.
-- Add a few more pages.
+- ~~Make a better SSG.~~ Done! The new SSG is written in POSIX Shell and basically gets variables from a custom script and substitutes them into the templates.
+- ~~Add a few more pages.~~ [Here](/notes/2024/11/17.htm) and [here](/notes/2024/11/23.htm).
 - Learn C or C++. Maybe C# (Yes I'm not stupid I know that C# and C/C++ are very different it's just that I want to learn C/C++ because of the wide support and how it's lower level. C# is a lot higher level which means less control (tragic) but it's also easier and it seems to be the only language who's users don't hate it)
 - 3d web-based rendering engine with Chrome 1 support - This means no WebGL, but it should be possible. Performance is the main problem, along with how only affine transformations can be performed on Canvas2d. There are ways to hide this as much as possible though.
-
-<p style="text-indent:0;"><sub>Page created on: 11/9/2024</sub></p>
