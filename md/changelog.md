@@ -10,6 +10,7 @@ generic.htm
 
 ### 24/11/2024
 
+- Added recently played songs from [last.fm](https://www.last.fm/)
 - Added summary to Atom feed
 
 ### 23/11/2024
