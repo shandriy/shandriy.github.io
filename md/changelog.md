@@ -4,7 +4,8 @@ generic.htm
 
 ### 23/11/2024
 
-- Added unique visit counter with [digits.net](https://digits.net).
+- Added [new blog post](/notes/2024/11/23.htm)
+- Added unique visit counter with [digits.net](https://digits.net)
 
 ### 17/11/2024
 
