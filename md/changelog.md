@@ -10,6 +10,7 @@ generic.htm
 
 ### 25/11/2024
 
+- Forced wrapping on `<pre>` elements
 - Created [yuriring](/webring.htm)
 - Added three new buttons
 
