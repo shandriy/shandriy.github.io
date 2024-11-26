@@ -10,6 +10,8 @@ generic.htm
 
 ### 25/11/2024
 
+- Fixed error with webring redirects caching incorrectly
+- Fixed error with webring redirects not working correctly
 - Forced wrapping on `<pre>` elements
 - Created [yuriring](/webring.htm)
 - Added three new buttons
