@@ -8,23 +8,29 @@
   <meta http-equiv="Expires" content="0">
   <script>
     (function() {
-      var websites = [
-        "sha", "https://shandriy.github.io",
-        "rki", "https://zziz.nekoweb.org"
+      var ids = [
+        "sha",
+        "rki"
+      ];
+      var urls = [
+        "https://shandriy.github.io",
+        "https://zziz.nekoweb.org"
       ];
 
       var hash = location.hash.substring(1,4);
       var move = parseInt(location.hash.substring(4));
       if (move != 0 && move != 1) move = move > 0 ? 1 : 0;
-      move = (move * 2 - 1) * 3;
+      move = (move * 2 - 1);
 
-      var index = websites.indexOf(hash);
-      if (index > -1 && index % 2 == 0) {
-        if (typeof websites[index + move] != "string")
-          index = move > 0 ? -2 : websites.length + 2;
-        location.replace(websites[index + move]);
+      var index = ids.indexOf(hash);
+      if (index > -1) {
+        if (typeof urls[index + move] != "string") {
+          index = move > 0 ? 0 : websites.length - 1;
+          move = 0;
+        }
+        location.replace(urls[index + move]);
       } else {
-        location.replace(websites[move > 0 ? websites.length - 1 : 1])
+        location.replace(urls[move > 0 ? 0 : websites.length - 1])
       }
     })()
   </script>
