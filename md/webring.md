@@ -15,7 +15,7 @@ There are a few rules:
 3. Have your own website! It's preferable if you coded it yourself with no or minimal AI use, but it's fine either way
 4. If you have anything NSFW on your site, there has to be a warning of some sort
 
-Meet all the requirements? Go [here](https://forms.gle/J1tjzacMmLTsHP9R9) and add a widget to your site once your done.
+Meet all the requirements? Go [here](https://forms.gle/J1tjzacMmLTsHP9R9) and add a widget to your site once you're done.
 
 ### Widget
 
