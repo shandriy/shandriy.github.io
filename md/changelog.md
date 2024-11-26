@@ -8,6 +8,10 @@ generic.htm
 
 ## Changelog
 
+### 25/11/2024
+
+- Added three new buttons
+
 ### 24/11/2024
 
 - Added recently played songs from [last.fm](https://www.last.fm/)
