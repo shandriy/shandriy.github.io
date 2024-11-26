@@ -25,12 +25,12 @@
       var index = ids.indexOf(hash);
       if (index > -1) {
         if (typeof urls[index + move] != "string") {
-          index = move > 0 ? 0 : websites.length - 1;
+          index = move > 0 ? 0 : urls.length - 1;
           move = 0;
         }
         location.replace(urls[index + move]);
       } else {
-        location.replace(urls[move > 0 ? 0 : websites.length - 1])
+        location.replace(urls[move > 0 ? 0 : urls.length - 1])
       }
     })()
   </script>
