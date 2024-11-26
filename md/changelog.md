@@ -10,6 +10,7 @@ generic.htm
 
 ### 25/11/2024
 
+- Created [yuriring](/webring.htm)
 - Added three new buttons
 
 ### 24/11/2024
