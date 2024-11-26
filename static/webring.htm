@@ -28,15 +28,21 @@
           index = move > 0 ? 0 : urls.length - 1;
           move = 0;
         }
-        location.replace(urls[index + move]);
+        setTimeout(function() {
+          location.replace(urls[index + move]);
+        }, 2000);
       } else {
-        location.replace(urls[move > 0 ? 0 : urls.length - 1])
+        setTimeout(function() {
+          location.replace(urls[move > 0 ? 0 : urls.length - 1]);
+        }, 2000);
       }
     })()
   </script>
 </head>
 <body>
-  Loading...
+  Redirecting...
+
+  If redirect is incorrect, press CTRL + SHIFT + R while on this page.
   <noscript>JavaScript is required, sorry!</noscript>
 </body>
 </html>
