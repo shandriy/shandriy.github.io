@@ -27,7 +27,7 @@ generic.htm
 
 ### 17/11/2024
 
-- Added [first blog post](/notes/2024/11/17.htm).
+- Added [first blog post](/notes/2024/11/17.htm)
 - Loading Vocaring no longer requires JavaScript
 - Fixed error where ~~deleted text~~ shows up as a ~subscript~
 - Added support for `code` sections
