@@ -7,3 +7,4 @@
 ./md/notes/2024/11/17.md
 ./md/notes/2024/11/23.md
 ./md/notes/index.md
+./md/webring.md
