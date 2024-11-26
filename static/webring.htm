@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>WEBRING</title>
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <script>
+    (function() {
+      var websites = [
+        "sha", "https://shandriy.github.io"
+      ]
+
+      var hash = location.hash.substring(1,4);
+      var move = parseInt(location.hash.substring(4));
+      if (move != 0 && move != 1) move = move > 0 ? 1 : 0;
+      move = (move * 2 - 1) * 3;
+
+      var index = websites.indexOf(hash);
+      if (index > -1 && index % 2 == 0) {
+        if (typeof websites[index + move] != "string")
+          index = move > 0 ? -2 : websites.length + 2;
+        location.replace(websites[index + move]);
+      } else {
+        location.replace(websites[move > 0 ? websites.length - 1 : 1])
+      }
+    })()
+  </script>
+</head>
+<body>
+  Loading...
+  <noscript>JavaScript is required, sorry!</noscript>
+</body>
+</html>
