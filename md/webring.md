@@ -73,6 +73,27 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
 
 ### Members
 
-Please join I literally created this just now please
-
-- FULLERENE (sha) - [<img src="/static/img/button.gif" style="vertical-align:middle">](https://shandriy.github.io)
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>ID</th>
+      <th>Button</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://shandriy.github.io">FULLERENE</a></td>
+      <td>SHA</td>
+      <td><img src="/static/img/button.gif" style="vertical-align:middle"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://zziz.nekoweb.org">zziz</a></td>
+      <td>RKI</td>
+      <td><img src="/static/img/buttons/zziz.gif" style="vertical-align:middle"></td>
+      <td>very awesome cool alien site ahh!! 👽</td>
+    </tr>
+  </tbody>
+</table>
