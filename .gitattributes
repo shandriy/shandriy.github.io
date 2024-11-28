@@ -3,3 +3,7 @@ src/** linguist-detectable=true
 src/** linguist-generated=false
 md/** linguist-detectable=true
 static/** linguist-detectable=true
+static/css/css/blink.css linguist-vendored=true
+static/css/css/EdgeHTML.css linguist-vendored=true
+static/css/css/Mozilla.css linguist-vendored=true
+static/css/css/WebCore.css linguist-vendored=true
