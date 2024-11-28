@@ -15,61 +15,115 @@
       <p style="margin-top:0;text-decoration:none;text-indent:0">
         <em><sub><a href="https://www.youtube.com/watch?v=rN2mtNvDVGw">OTAKUSPEEDVIBE</a></sub></em>
       </p>
-      <h2 id="to-do">To Do</h2>
-<ul>
-<li>Add RSS feed</li>
-<li>Finish custom Markdown parser</li>
-<li>Rewrite static site generator</li>
-</ul>
-<h2 id="changelog">Changelog</h2>
-<h3 id="section">25/11/2024</h3>
-<ul>
-<li>Fixed error with webring redirects caching incorrectly</li>
-<li>Fixed error with webring redirects not working correctly</li>
-<li>Forced wrapping on <code>&lt;pre&gt;</code> elements</li>
-<li>Created <a href="/webring.htm">yuriring</a></li>
-<li>Added three new buttons</li>
-</ul>
-<h3 id="section-1">24/11/2024</h3>
-<ul>
-<li>Added recently played songs from <a href="https://www.last.fm/">last.fm</a></li>
-<li>Added summary to Atom feed</li>
-</ul>
-<h3 id="section-2">23/11/2024</h3>
-<ul>
-<li>Added Atom feed; incomplete, still testing</li>
-<li>Added to-do list</li>
-<li>Updated CSS font stack to be more cross-compatible</li>
-<li>Added <a href="/notes/2024/11/23.htm">new blog post</a></li>
-<li>Added unique visit counter with <a href="https://digits.net">digits.net</a></li>
-</ul>
-<h3 id="section-3">17/11/2024</h3>
-<ul>
-<li>Added <a href="/notes/2024/11/17.htm">first blog post</a></li>
-<li>Loading Vocaring no longer requires JavaScript</li>
-<li>Fixed error where <del>deleted text</del> shows up as a <sub>subscript</sub></li>
-<li>Added support for <code>code</code> sections</li>
-<li>Switched to experimental custom Markdown parser written in <code>awk</code></li>
-</ul>
-<h3 id="section-4">16/11/2024</h3>
-<ul>
-<li>Switched to experimental custom Markdown parser written in <code>sed</code></li>
-</ul>
-<h3 id="section-5">15/11/2024</h3>
-<ul>
-<li>Added time last updated to footer</li>
-<li>Added site button</li>
-<li>Changed mobile detection to check orientation and touchscreen support</li>
-</ul>
-<h3 id="section-6">14/11/2024</h3>
-<ul>
-<li>Added <a href="/404.html">404 page</a> for GitHub pages</li>
-<li>Added changelog page</li>
-<li>Added buttons to other sites</li>
-<li>Added custom-styled webring list</li>
-<li>Added mobile layout support with media queries</li>
-<li>Added daily song</li>
-</ul>
+      <h2 id="yuri-yaoi-webring">Yuri &amp; Yaoi WebRing</h2>
+<p>Welcome to the yuriring! If you like yuri, yaoi, or anything else LGBTQ+ and anime or manga related, feel free to join!</p>
+<p>If you don't know what a webring is, a webring is a collection of websites by people who share similar interests! You have to be able to modify the source of your website to add a widget.</p>
+<h3 id="join">Join</h3>
+<p>There are a few rules:</p>
+<ol type="1">
+<li>As mentioned, enjoying yuri, yaoi, or anything else that's gay and anime</li>
+<li>Don't be homophobic, racist, misogynistic, etc, although I doubt this'll be a problem</li>
+<li>Have your own website! It's preferable if you coded it yourself with no or minimal AI use, but it's fine either way</li>
+<li>If you have anything NSFW on your site, there has to be a warning of some sort</li>
+</ol>
+<p>Meet all the requirements? Go <a href="https://forms.gle/J1tjzacMmLTsHP9R9">here</a> and add a widget to your site once you're done.</p>
+<h3 id="widget">Widget</h3>
+<p>Paste one of the snippets below somewhere on your page, or you can modify and make your own version. Make sure to replace "{IDENTIFIER}" with the 3 letter identifier you chose.</p>
+<pre><code>&lt;!--yuri--&gt;
+
+&lt;div style=&quot;
+  background-image:
+    linear-gradient(to top,#000,#00000000),
+    url(&#39;https://anteikuanimereviews.com/wp-content/uploads/2021/02/meiyuzukiss3.jpg?w=1024&#39;); &lt;!--You can replace the art with anything you want by editing this line!--&gt;
+  background-size:cover;
+  display:grid;
+  height:144px;
+  width:256px;
+  border-radius:16px;
+  color:#fff;
+  font-family:&#39;Liberation Serif&#39;,&#39;Times New Roman&#39;,Times;
+  font-size:22px&quot;&gt;
+  &lt;span style=&quot;display:inline-block;align-self:end;justify-self:center;text-align:center&quot;&gt;
+      &lt;a style=&quot;text-decoration:none;color:#fff&quot; href=&quot;https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0&quot;&gt;&amp;lArr;&lt;/a&gt;
+      &lt;a style=&quot;text-decoration:none;color:#fff&quot; href=&quot;https://shandriy.github.io/webring.htm&quot;&gt;YURI WEBRING&lt;/a&gt;
+      &lt;a style=&quot;text-decoration:none;color:#fff&quot; href=&quot;https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1&quot;&gt;&amp;rArr;&lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;</code></pre>
+<pre><code>&lt;!--yaoi--&gt;
+
+&lt;div style=&quot;
+  background-image:
+    linear-gradient(to top,#000,#00000000),
+    url(&#39;https://mwappimgs.cc/static/upload2/book/id/48904/cover_1.jpg?v=1723606232&#39;); &lt;!--You can replace the art with anything you want by editing this line!--&gt;
+  background-size:cover;
+  display:grid;
+  height:144px;
+  width:256px;
+  border-radius:16px;
+  color:#fff;
+  font-family:&#39;Liberation Serif&#39;,&#39;Times New Roman&#39;,Times;
+  font-size:22px&quot;&gt;
+  &lt;span style=&quot;display:inline-block;align-self:end;justify-self:center;text-align:center&quot;&gt;
+      &lt;a style=&quot;text-decoration:none;color:#fff&quot; href=&quot;https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0&quot;&gt;&amp;lArr;&lt;/a&gt;
+      &lt;a style=&quot;text-decoration:none;color:#fff&quot; href=&quot;https://shandriy.github.io/webring.htm&quot;&gt;YAOI WEBRING&lt;/a&gt;
+      &lt;a style=&quot;text-decoration:none;color:#fff&quot; href=&quot;https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1&quot;&gt;&amp;rArr;&lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;</code></pre>
+<div style="background-image:linear-gradient(to top,#000,#00000000),url(&#39;https://anteikuanimereviews.com/wp-content/uploads/2021/02/meiyuzukiss3.jpg?w=1024&#39;);background-size:cover;display:grid;height:144px;width:256px;border-radius:16px;color:#fff;font-family:&#39;Liberation Serif&#39;,&#39;Times New Roman&#39;,Times;font-size:22px">
+<span style="display:inline-block;align-self:end;justify-self:center;text-align:center"><a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">⇐</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YURI WEBRING</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">⇒</a></span>
+</div>
+<br>
+<div style="background-image:linear-gradient(to top,#000,#00000000),url(&#39;https://mwappimgs.cc/static/upload2/book/id/48904/cover_1.jpg?v=1723606232&#39;);background-size:cover;display:grid;height:144px;width:256px;border-radius:16px;color:#fff;font-family:&#39;Liberation Serif&#39;,&#39;Times New Roman&#39;,Times;font-size:22px">
+<span style="display:inline-block;align-self:end;justify-self:center;text-align:center"><a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">⇐</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YAOI WEBRING</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">⇒</a></span>
+</div>
+<h3 id="members">Members</h3>
+<table>
+<thead>
+<tr>
+<th>
+Name
+</th>
+<th>
+ID
+</th>
+<th>
+Button
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://shandriy.github.io">FULLERENE</a>
+</td>
+<td>
+SHA
+</td>
+<td>
+<img src="/static/img/button.gif" style="vertical-align:middle">
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://zziz.nekoweb.org">zziz</a>
+</td>
+<td>
+RKI
+</td>
+<td>
+<img src="/static/img/buttons/zziz.gif" style="vertical-align:middle">
+</td>
+<td>
+very awesome cool alien site ahh!! 👽
+</td>
+</tr>
+</tbody>
+</table>
       <div id="footer-large">
         <hr>
         <sub>
@@ -77,7 +131,7 @@
         </sub>
         <sub>Hand-coded by &#64;shandriy on GitHub @fulerene on Discord - Tested on Firefox 132.0.1 64-bit Windows and Chrome 1.0.154.59 Windows.</sub>
         <sub>
-          <a href="https://github.com/shandriy/shandriy.github.io/blob/master/md/changelog.md?plain=1">Page source</a>. Unique visitor counter:
+          <a href="https://github.com/shandriy/shandriy.github.io/blob/master/md/webring.md?plain=1">Page source</a>. Unique visitor counter:
           <a href="https://www.digits.net"><img src="https://counter.digits.net/?counter={6ade13fd-c0b3-6794-09db-4a00d249196b}&background=ffffff&template=simple&foreground=000000" style="height:11pt;vertical-align:middle;" alt="Hit Counter by Digits" border="0"></a>
           since 23/11/2024.
         </sub>
@@ -211,7 +265,7 @@
     </sub>
     <sub>Hand-coded by &#64;shandriy on GitHub @fulerene on Discord - Tested on Firefox 132.0.1 64-bit Windows and Chrome 1.0.154.59 Windows.</sub>
     <sub>
-      <a href="https://github.com/shandriy/shandriy.github.io/blob/master/md/changelog.md?plain=1">Page source</a>. Unique visitor counter:
+      <a href="https://github.com/shandriy/shandriy.github.io/blob/master/md/webring.md?plain=1">Page source</a>. Unique visitor counter:
       <a href="https://www.digits.net"><img src="https://counter.digits.net/?counter={6ade13fd-c0b3-6794-09db-4a00d249196b}&background=000000&template=simple&foreground=ffffff" style="height:11pt;vertical-align:middle;" alt="Hit Counter by Digits" border="0"></a>
       since 23/11/2024.
     </sub>
