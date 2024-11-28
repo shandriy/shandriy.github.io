@@ -34,7 +34,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
   width:256px;
   border-radius:16px;
   color:#fff;
-  font-family:'Liberation Serif','Times New Roman',Times;
+  font-family:'Liberation Serif','Times New Roman',Times,serif;
   font-size:22px">
   <span style="display:inline-block;align-self:end;justify-self:center;text-align:center">
       <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a>
@@ -57,7 +57,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
   width:256px;
   border-radius:16px;
   color:#fff;
-  font-family:'Liberation Serif','Times New Roman',Times;
+  font-family:'Liberation Serif','Times New Roman',Times,serif;
   font-size:22px">
   <span style="display:inline-block;align-self:end;justify-self:center;text-align:center">
       <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a>
@@ -67,9 +67,9 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
 </div>
 ```
 
-<div style="background-image:linear-gradient(to top,#000,#00000000),url('https://anteikuanimereviews.com/wp-content/uploads/2021/02/meiyuzukiss3.jpg?w=1024');background-size:cover;display:grid;height:144px;width:256px;border-radius:16px;color:#fff;font-family:'Liberation Serif','Times New Roman',Times;font-size:22px"><span style="display:inline-block;align-self:end;justify-self:center;text-align:center"><a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YURI WEBRING</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a></span></div>
+<div style="background-image:linear-gradient(to top,#000,#00000000),url('https://anteikuanimereviews.com/wp-content/uploads/2021/02/meiyuzukiss3.jpg?w=1024');background-size:cover;display:grid;height:144px;width:256px;border-radius:16px;color:#fff;font-family:'Liberation Serif','Times New Roman',Times,serif;font-size:22px"><span style="display:inline-block;align-self:end;justify-self:center;text-align:center"><a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YURI WEBRING</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a></span></div>
 <br>
-<div style="background-image:linear-gradient(to top,#000,#00000000),url('https://mwappimgs.cc/static/upload2/book/id/48904/cover_1.jpg?v=1723606232');background-size:cover;display:grid;height:144px;width:256px;border-radius:16px;color:#fff;font-family:'Liberation Serif','Times New Roman',Times;font-size:22px"><span style="display:inline-block;align-self:end;justify-self:center;text-align:center"><a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YAOI WEBRING</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a></span></div>
+<div style="background-image:linear-gradient(to top,#000,#00000000),url('https://mwappimgs.cc/static/upload2/book/id/48904/cover_1.jpg?v=1723606232');background-size:cover;display:grid;height:144px;width:256px;border-radius:16px;color:#fff;font-family:'Liberation Serif','Times New Roman',Times,serif;font-size:22px"><span style="display:inline-block;align-self:end;justify-self:center;text-align:center"><a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YAOI WEBRING</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a></span></div>
 
 ### Members
 
@@ -93,7 +93,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td><a href="https://zziz.nekoweb.org">zziz</a></td>
       <td>RKI</td>
       <td><img src="/static/img/buttons/zziz.gif" style="vertical-align:middle"></td>
-      <td>very awesome cool alien site ahh!! 👽</td>
+      <td>very awesome cool alien site ahh!! &#x1F47D;</td>
     </tr>
   </tbody>
 </table>
