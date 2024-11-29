@@ -19,7 +19,18 @@
         "https://coffeeknife.nekoweb.org/"
       ];
 
-      var hash = location.hash.substring(1,4);
+      var hash = location.hash.substring(1,4).toLowerCase();
+
+      if (ids.indexOf(hash) == -1) {
+        addEventListener("DOMContentLoaded", function() {
+          document.body.innerHTML =
+            "Sorry! Looks like you aren't part of the webring yet or the identifier is wrong<br>" +
+            "<a href='https://shandriy.github.io/webring.htm'>Make sure you followed the instructions correctly if you are already marked as a member</a><br>" +
+            "If everything is correct, try CTRL + SHIFT + R"
+        })
+        throw void 0;
+      }
+
       var move = parseInt(location.hash.substring(4));
       if (move != 0 && move != 1) move = move > 0 ? 1 : 0;
       move = (move * 2 - 1);
