@@ -95,5 +95,11 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td><img src="/static/img/buttons/zziz.gif" style="vertical-align:middle"></td>
       <td>very awesome cool alien site ahh!! &#x1F47D;</td>
     </tr>
+    <tr>
+      <td><a href="https://coffeeknife.nekoweb.org">coffeeknife</a></td>
+      <td>CKN</td>
+      <td><img src="/static/img/buttons/RobinAlexander.png" style="vertical-align:middle"></td>
+      <td>landing page for my nerd junk</td>
+    </tr>
   </tbody>
 </table>
