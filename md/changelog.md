@@ -2,6 +2,7 @@ generic.htm
 
 ## To Do
 
+- Update CSS and default styling
 - Add RSS feed
 - Finish custom Markdown parser
 - Rewrite static site generator
