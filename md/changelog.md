@@ -9,6 +9,11 @@ generic.htm
 
 ## Changelog
 
+### 30/11/2024
+
+- Fixed title not linking to index
+- Added [new blog post](/notes/2024/11/30.htm)
+
 ### 25/11/2024
 
 - Fixed error with webring redirects caching incorrectly

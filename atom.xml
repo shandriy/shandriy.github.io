@@ -4,23 +4,31 @@
   <subtitle>Personal website.</subtitle>
   <link href="http://shandriy.github.io/atom.xml" rel="self"/>
   <link href="http://shandriy.github.io"/>
-  <updated>2024-11-23T00:00:00.000Z</updated>
+  <updated>2024-11-30T00:00:00.000Z</updated>
   <author>
     <name>Shandriy</name>
   </author>
   <id>http://shandriy.github.io</id>
   <entry>
     <content></content>
-    <title>The Limits of Cross and Backwards Compatibility</title>
-    <link href="https://shandriy.github.io/./notes/2024/11/23.htm"/>
-    <id>./notes/2024/11/23.htm</id>
-    <updated>2024-11-23T00:00:00.000Z</updated>
-    <summary>   As I've mentioned in my [1]previous blog post, home page, and probably
-   more pages as time goes on, I really, really, care about
-   backwards-compatibility and cross-compatibility....
-
-References
-
-   1. file:///notes/2024/11/17.htm</summary>
+    <title>Kantai Collection, Theoretically</title>
+    <link href="https://shandriy.github.io/./notes/2024/11/30.htm"/>
+    <id>./notes/2024/11/30.htm</id>
+    <updated>2024-11-30T00:00:00.000Z</updated>
+    <summary>   If you don't know, Kantai Collection, or KanColle, is a browser gacha
+   game about World War 2 ships as anime girls. If that sounds weird,
+   that's because it is. As someone who finds warships interesting, likes
+   anime art styles, and likes women, along with the general atmosphere of
+   KanColle, this is all pretty great. What makes it even better is the
+   gacha - gachas are basically just gambling, which is what makes it
+   addictive, but the gacha in KanColle is more than that. Instead of
+   being the monetization scheme, it's part of the gameplay; when you pull
+   in KanColle, you'll get different ships based off what materials you
+   use and how many. And your shipgirls aren't permanent - if one of them
+   dies, you lose her forever. This means the gacha rewards are more
+   expendable resources, and discourages too much grinding for a specific
+   character. You can't use real life money to pull on the gacha either,
+   so this encourages a lot more strategy. Theoretically, this should be
+   one of my favorite games - but it isn't....</summary>
   </entry>
 </feed>

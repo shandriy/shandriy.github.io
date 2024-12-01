@@ -1,6 +1,6 @@
 generic.htm
 
-<p style="text-indent:0;">NEW BLOG POST - 23/11/2024, [The Limits of Cross and Backwards Compatibility](/notes/2024/11/23.htm)</p>
+<p style="text-indent:0;">NEW BLOG POST - 30/11/2024, [Kantai Collection, Theoretically](/notes/2024/11/30.htm)</p>
 
 <h2 style="margin-bottom:0">About me</h2>
 <p style="margin-top:0;text-indent:0;text-decoration:none;">*~[Sign my guestbook!](https://enty.atabook.org)~*</p>
