@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 1/12/2024
+
+- Added status to webring members
+
 ### 30/11/2024
 
 - Fixed title not linking to index
