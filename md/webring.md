@@ -87,21 +87,21 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
     <tr>
       <td><a href="https://shandriy.github.io">FULLERENE</a></td>
       <td>SHA</td>
-      <td><img src="/static/img/button.gif" style="vertical-align:middle"></td>
+      <td><img src="/static/img/button.gif" style="vertical-align:middle;width:88px"></td>
       <td>*No description*</td>
       <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
       <td><a href="https://zziz.nekoweb.org">zziz</a></td>
       <td>RKI</td>
-      <td><img src="/static/img/buttons/zziz.gif" style="vertical-align:middle"></td>
+      <td><img src="/static/img/buttons/zziz.gif" style="vertical-align:middle;width:88px"></td>
       <td>very awesome cool alien site ahh!! &#x1F47D;</td>
       <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
       <td><a href="https://coffeeknife.nekoweb.org">coffeeknife</a></td>
       <td>CKN</td>
-      <td><img src="/static/img/buttons/RobinAlexander.png" style="vertical-align:middle"></td>
+      <td><img src="/static/img/buttons/RobinAlexander.png" style="vertical-align:middle;width:88px"></td>
       <td>landing page for my nerd junk</td>
       <td>Site up, webring linked &check;</td>
     </tr>
@@ -110,6 +110,13 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>CEU</td>
       <td><img src="/static/img/buttons/ArrowSparrow.png" style="vertical-align:middle;width:88px"></td>
       <td>*No description*</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
+    <tr>
+      <td><a href="https://kittyrave.club">kittyrave</a></td>
+      <td>KIT</td>
+      <td><img src="/static/img/buttons/Miles.gif" style="vertical-align:middle;width:88px"></td>
+      <td>cat-themed personal site!</td>
       <td>Site up, webring not linked &hellip;</td>
     </tr>
   </tbody>
