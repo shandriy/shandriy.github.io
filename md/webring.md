@@ -110,13 +110,20 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>`CEU`</td>
       <td><img src="/static/img/buttons/ArrowSparrow.png" style="vertical-align:middle;width:88px"></td>
       <td>*No description*</td>
-      <td>Site up, webring not linked &hellip;</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
       <td><a href="https://kittyrave.club">kittyrave</a></td>
       <td>`KIT`</td>
       <td><img src="/static/img/buttons/Miles.gif" style="vertical-align:middle;width:88px"></td>
       <td>cat-themed personal site!</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
+    <tr>
+      <td><a href="https://otaku.nekoweb.org">otaku</a></td>
+      <td>`LBX`</td>
+      <td><img src="/static/img/buttons/h.gif" style="vertical-align:middle;width:88px"></td>
+      <td>guy</td>
       <td>Site up, webring not linked &hellip;</td>
     </tr>
   </tbody>
