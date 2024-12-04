@@ -124,7 +124,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>`LBX`</td>
       <td><img src="/static/img/buttons/h.gif" style="vertical-align:middle;width:88px"></td>
       <td>guy</td>
-      <td>Site up, webring not linked &hellip;</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
   </tbody>
 </table>

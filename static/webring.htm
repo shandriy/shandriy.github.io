@@ -26,6 +26,9 @@
       ];
 
       var hash = location.hash.substring(1,4).toLowerCase();
+      if (location.hash[1] == "{") {
+        hash = location.hash.substring(2,5).toLowerCase();
+      }
 
       if (ids.indexOf(hash) == -1) {
         addEventListener("DOMContentLoaded", function() {
@@ -38,6 +41,9 @@
       }
 
       var move = parseInt(location.hash.substring(4));
+      if (location.hash[1] == "{") {
+        move = parseInt(location.hash.substring(6))
+      }
       if (move != 0 && move != 1) move = move > 0 ? 1 : 0;
       move = (move * 2 - 1);
 

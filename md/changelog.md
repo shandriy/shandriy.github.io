@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 3/12/2024
+
+- Updated webring redirect to work more consistently
+
 ### 1/12/2024
 
 - Added status to webring members
