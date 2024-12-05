@@ -1,0 +1,46 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+td {
+  background-color: #fffff3;
+  border: 1px solid #998;
+  vertical-align: top;
+  padding: 16px;
+}
+button {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border: none;
+  color: #000;
+  background-color: #fffff3;
+  text-decoration: underline;
+  font-family: Helvetica, Arial, sans-serif;
+}
+p {
+  text-indent: 1em;
+}
+.left {
+  width: 20%;
+  padding: 0;
+}
+.center {
+  width: 60%;
+}
+.right {
+  width: 20%;
+  padding: 0;
+}
+@media (max-width: 640px) {
+  .left {
+    width: 80%;
+    display: none;
+  }
+  .center {
+    width: 20%;
+  }
+  .right {
+    width: 80%;
+    display: none;
+  }
+}
