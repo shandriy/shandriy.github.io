@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 4/12/2024
+
+- Updated website color scheme
+
 ### 3/12/2024
 
 - Updated webring redirect to work more consistently

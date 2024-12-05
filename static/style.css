@@ -6,7 +6,7 @@ html, body {
   font-variant-ligatures: none;
   -webkit-font-variant-ligatures: none;
   font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
-  background-color: #126;
+  background-color: #024;
   margin: 0;
   padding: 0;
   font-size: 11pt;
@@ -176,7 +176,7 @@ td {
     position: static;
     display: block;
     width: 100%;
-    background-color: #126;
+    background-color: #024;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     margin-bottom: 0;
