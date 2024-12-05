@@ -1,0 +1,32 @@
+td {
+  border: 1px solid #aaa;
+  vertical-align: top;
+  padding: 16px;
+}
+p {
+  text-indent: 1em;
+}
+.left {
+  width: 20%;
+  padding: 0;
+}
+.center {
+  width: 60%;
+}
+.right {
+  width: 20%;
+  padding: 0;
+}
+@media (max-width: 640px) {
+  .left {
+    width: 80%;
+    display: none;
+  }
+  .center {
+    width: 20%;
+  }
+  .right {
+    width: 80%;
+    display: none;
+  }
+}

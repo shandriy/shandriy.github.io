@@ -19,4 +19,4 @@ SONG="Im_so_Concerned_About_the_Ending_That_I_Dont_Even_Know_the_Plot"
 
 # Get song script
 
-. "music/$SONG.sh"
+. "./music/$SONG.sh"

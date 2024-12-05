@@ -1,8 +1,6 @@
+./archive.htm
 ./changelog.htm
 ./index.htm
-./notes
-./notes/2024
-./notes/2024/11
 ./notes/2024/11/17.htm
 ./notes/2024/11/23.htm
 ./notes/2024/11/30.htm

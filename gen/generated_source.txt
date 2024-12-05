@@ -1,4 +1,5 @@
 ./md
+./md/archive.md
 ./md/changelog.md
 ./md/index.md
 ./md/notes
