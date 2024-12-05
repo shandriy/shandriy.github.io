@@ -11,6 +11,7 @@ generic.htm
 
 ### 4/12/2024
 
+- Added archive of previous site layouts
 - Updated website color scheme
 
 ### 3/12/2024
