@@ -1,1 +1,249 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FULLERENE</title>
+  <link rel="stylesheet" href="/static/style.css?t=1733368848">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+</head>
+<body>
+  <div id="center" class="content">
+    <div id="markdown-contents">
+      <h1 class="no-margin"><a href="/index.htm" style="text-decoration:none;color:#000;">OVER THE FULLERENESHIFT</a></h1>
+      <p style="margin-top:0;text-decoration:none;text-indent:0">
+        <em><sub><a href="https://www.youtube.com/watch?v=rN2mtNvDVGw">OTAKUSPEEDVIBE</a></sub></em>
+      </p>
+      <h2 id="the-most-cross-compatible-font-stacks">17/11/2024 - The Most Cross-Compatible Font Stacks</h2>
+<p>Cross compatibility is very important to me; it means consistency, and consistency and permanence are some of the most important things to me in web development, and overall in life.</p>
+<h3 id="sans-serif-and-serif">Sans-Serif and Serif</h3>
+<p>Loading fonts sucks - they loads slowly and some older browsers don't support it. I was looking for what default system fonts are most cross-compatible and came across <a href="https://www.ctrl.blog/entry/font-stack-text.html">this</a> wonderful article. I recommend reading it first. According to it, the most cross-compatible font stack for sans-serif fonts is <code>'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif</code> and for serif fonts, <code>Times, 'Times New Roman', serif</code>. While this is a great starting point, this isn't <em>exactly</em> what I'm looking for.</p>
+<p>When looking for a cross-compatible font stack, I'm looking for one where the fonts are metrically compatible. My first problem with the font stacks given in the Aleksandersen's article is that <a href="https://creativepro.com/helvetica-vs-neue-helvetica-same-but-different/">Helvetica Neue is not metrically compatible with Helvetica</a>. While this doesn't mean something is wrong with using Helvetica Neue to replace Helvetica, it's not exactly what I'm looking for. So, our new font stack for sans-serif fonts is: <code>Helvetica, Arial, sans-serif</code>.</p>
+<p>According to Aleksandersen's article, it's better to <em>first</em> put Times New Roman, then Times in the font stack because Nimbus Roman is a closer match than Liberation Serif. However, looking at the <a href="https://www.ctrl.blog/entry/font-stack-text.html#:~:text=Serif%20font%20name%20substitutions%20%28Latin%20scripts%29">charts provided</a>, Times New Roman is better substituted, and Nimbus Roman isn't metrically compatible with Times, which is what I'm looking for. A solution for this is simply making the font stack like this: <code>"Liberation Serif", "Times New Roman", Times, serif</code>. The same goes for the sans-serif fonts; <code>"Liberation Sans", Arial, Helvetica, sans-serif</code>.</p>
+<h3 id="font-ligatures">Font Ligatures</h3>
+<p>Another issue with all of this is font ligatures - many metrically compatible fonts don't have the same support for ligatures, but as it turns out, it's possible to disable font ligatures with CSS. Is it worth it? To most people, no, but for my personal needs, yes. Font ligatures <a href="https://stackoverflow.com/questions/39504775/disabling-font-ligatures-css-letter-combining">can be disabled in two ways</a>. Using <code>font-feature-settings: "liga" 0</code> or <code>font-variant-ligatures: none</code>.</p>
+<p>There are a few problems with these options however; the first is that it's unsupported by older browsers, but there isn't anything we can do about that. However more importantly, <code>font-feature-settings: "liga" 0</code> only disables common ligatures; <code>font-feature-settings: "liga" 0</code> is the same as <code>font-variant-ligatures: no-common-ligatures</code> but not <code>font-variant-ligatures: none</code>. So of course <code>font-variant-ligatures</code> is the better option? Kind of. Official support for <code>font-variant-ligatures</code> came before <code>font-feature-settings</code> in most browsers, but <code>font-feature-settings</code> came with vendored prefix support before <code>font-variant-ligatures</code> did for most browsers. The solution? Use both, and with all vendor prefixes.</p>
+<pre><code>font-feature-settings: &quot;liga&quot; 0;
+-moz-font-feature-settings: &quot;liga=0&quot;;
+-moz-font-feature-settings: &quot;liga&quot; 0;
+-webkit-font-feature-settings: &quot;liga&quot; 0;
+font-variant-ligatures: none;
+-webkit-font-variant-ligatures: none;</code></pre>
+<p>That's a lot just to disable font ligatures, but in my eyes it's worth it. Older versions of <code>font-feature-settings</code> on FireFox had a different syntax, which is why the line <code>-moz-font-feature-settings: "liga=0";</code> is needed.</p>
+<h3 id="remaining-fonts">Remaining Fonts</h3>
+<p>Is that it? No. The one final thing not addressed is the most cross-compatible monospaced font. This isn't really complicated, and follows the same pattern as all the other fonts. Using the <a href="https://wiki.archlinux.org/title/Metric-compatible_fonts">archlinux wiki</a>, I got the font stack <code>"Liberation Mono", "Courier New", Courier, monospace</code>.</p>
+<p>The generic values for <code>font-family</code> also include <code>system-ui</code>, <code>cursive</code>, <code>fantasy</code>, and <code>math</code>. However, <code>system-ui</code> is dependant on your operating system, <code>cursive</code> defaults to Comic Sans on Windows, which isn't even cursive and more importantly I doubt anyone has made any metrically compatible fonts to it that <em>are</em> cursive. I can't seem to find what the default font for <code>cursive</code> is on MacOS anyways, so I'm just not gonna do it. <code>fantasy</code> on Windows defaults to Arial for some reason, and <code>math</code> to Times New Roman, so it makes sense to just support PostScript Level 1 core fonts, since those are the only ones standardized. Technically Symbol is also included in PostScript Level 1 but that can't really be substituted.</p>
+<h3 id="tldr">TL;DR</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="fu">.serif</span> {</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>  <span class="kw">font-feature-settings</span>: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>  -moz-font-feature-settings: <span class="st">&quot;liga=0&quot;</span><span class="op">;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>  -moz-font-feature-settings: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>  -webkit-font-feature-settings: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>  <span class="kw">font-variant-ligatures</span>: <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>  -webkit-font-variant-ligatures: <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a>  <span class="kw">font-stretch</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a>  <span class="kw">font-variant-caps</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a>  <span class="kw">font-variant-numeric</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a>  <span class="kw">font-variant-position</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true"></a>  <span class="kw">font-variant-alternates</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true"></a>  <span class="kw">font-variation-settings</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true"></a>  <span class="kw">font-synthesis</span>: style <span class="dv">small-caps</span> weight position<span class="op">;</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true"></a>  <span class="kw">font-family</span>: <span class="st">&quot;Liberation Serif&quot;</span><span class="op">,</span> <span class="st">&quot;Times New Roman&quot;</span><span class="op">,</span> Times<span class="op">,</span> <span class="dv">serif</span><span class="op">;</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true"></a>}</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true"></a><span class="fu">.sans-serif</span> {</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true"></a>  <span class="kw">font-feature-settings</span>: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true"></a>  -moz-font-feature-settings: <span class="st">&quot;liga=0&quot;</span><span class="op">;</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true"></a>  -moz-font-feature-settings: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true"></a>  -webkit-font-feature-settings: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true"></a>  <span class="kw">font-variant-ligatures</span>: <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true"></a>  -webkit-font-variant-ligatures: <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true"></a>  <span class="kw">font-stretch</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true"></a>  <span class="kw">font-variant-caps</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true"></a>  <span class="kw">font-variant-numeric</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true"></a>  <span class="kw">font-variant-position</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true"></a>  <span class="kw">font-variant-alternates</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true"></a>  <span class="kw">font-variation-settings</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true"></a>  <span class="kw">font-synthesis</span>: style <span class="dv">small-caps</span> weight position<span class="op">;</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true"></a>  <span class="kw">font-family</span>: <span class="st">&quot;Liberation Sans&quot;</span><span class="op">,</span> Arial<span class="op">,</span> Helvetica<span class="op">,</span> <span class="dv">sans-serif</span><span class="op">;</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true"></a>}</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true"></a><span class="fu">.monospace</span> {</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true"></a>  <span class="kw">font-feature-settings</span>: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true"></a>  -moz-font-feature-settings: <span class="st">&quot;liga=0&quot;</span><span class="op">;</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true"></a>  -moz-font-feature-settings: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true"></a>  -webkit-font-feature-settings: <span class="st">&quot;liga&quot;</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true"></a>  <span class="kw">font-variant-ligatures</span>: <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true"></a>  -webkit-font-variant-ligatures: <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true"></a>  <span class="kw">font-stretch</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true"></a>  <span class="kw">font-variant-caps</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true"></a>  <span class="kw">font-variant-numeric</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true"></a>  <span class="kw">font-variant-position</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true"></a>  <span class="kw">font-variant-alternates</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true"></a>  <span class="kw">font-variation-settings</span>: <span class="dv">normal</span><span class="op">;</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true"></a>  <span class="kw">font-synthesis</span>: style <span class="dv">small-caps</span> weight position<span class="op">;</span></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true"></a>  <span class="kw">font-family</span>: <span class="st">&quot;Liberation Mono&quot;</span><span class="op">,</span> <span class="st">&quot;Courier New&quot;</span><span class="op">,</span> Courier<span class="op">,</span> <span class="dv">monospace</span><span class="op">;</span></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true"></a>}</span></code></pre></div>
+<p>It's probably better to use mixins and a CSS preprocessor rather than classes, though. I also added a few more modern features to make sure it's entirely the same, although I'm not entirely certain if they have any effect on the specific fonts in this context. You can probably remove everything from <code>font-stretch: normal;</code> to <code>font-synthesis: style small-caps weight position;</code> without losing much.</p>
+<p>Basically all modern browsers allow you to override all website fonts so this isn't really a guarantee of cross-compatibility, but nothing can really be done about that. It is what it is. Basically the only solution to that is using images for fonts but that's terrible for accessibility and performance too - unless you're using HTML5 canvas, where there's probably not a lot of text anyways. I might experiment with that later, especially since old Chrome versions don't support writing text directly to canvas.</p>
+<p>Thank you for reading!</p>
+      <div id="footer-large">
+        <hr>
+        <sub>
+          Last updated <a href="https://github.com/shandriy/shandriy.github.io/commits">2024-12-04 19:20:48.640776606 -08:00:00</a>.
+        </sub>
+        <sub>Hand-coded by &#64;shandriy on GitHub @fulerene on Discord (Depends on the POSIX standard, HTML5, <code>pandoc</code>, and <code>lynx</code>) - Tested on Firefox 132.0.1 64-bit Windows and Chrome 1.0.154.59 Windows.</sub>
+        <sub>
+          <a href="https://github.com/shandriy/shandriy.github.io/blob/master/md/notes/2024/11/17.md?plain=1">Page source</a>. Unique visitor counter:
+          <a href="https://www.digits.net"><img src="https://counter.digits.net/?counter={6ade13fd-c0b3-6794-09db-4a00d249196b}&background=ffffff&template=simple&foreground=000000" style="height:11pt;vertical-align:middle;" alt="Hit Counter by Digits" border="0"></a>
+          since 23/11/2024.
+        </sub>
+      </div>
+    </div>
+  </div>
+  <div id="sidebar-wrapper">
+    <div id="left" class="sidebar content">
+      <div class="sidebar-contents">
+        <p class="no-margin-top" style="color:#ff0;font-style:italic;">
+          Previously hosted on <a href="enty.nekoweb.org" style="color:#ff0">enty.nekoweb.org</a>.
+        </p>
+        <h2 class="no-margin-top">Webrings</h2>
+        <div id="webring-wrapper">
+          <div id="doodlering">
+            <a href="https://spuds.neocities.org">Last</a> -
+            Doodlering -
+            <a href="https://weatherchannel.neocities.org">Next</a>
+            <br>
+            <sub>
+              <a href="https://evehibi.nekoweb.org/doodlering/">Index</a> -
+              <a href="https://evehibi.nekoweb.org/doodlering/members.html">Members</a>
+            </sub>
+          </div>
+          <br>
+          <div id="vocaring">
+            <a href="https://illomen.neocities.org/">Last</a> -
+            VOCARING -
+            <a href="https://nottmon.neocities.org/">Next</a>
+            <br>
+            <sub>
+              <a href="https://webring.adilene.net/index.php">Index</a> -
+              <a href="https://webring.adilene.net/members.php">Members</a>
+            </sub>
+          </div>
+          <br>
+          <div id="yuriring">
+            <a href="/static/webring.htm#sha0">Last</a> -
+            Yuriring -
+            <a href="/static/webring.htm#sha1">Next</a>
+            <br>
+            <sub>
+              <a href="/webring.htm">Index</a> -
+              <a href="/webring.htm">Members</a>
+            </sub>
+          </div>
+          <br>
+          <div id="yuriring">
+            <a href="https://baccyflap.com/noai/?prv&s=sha">Last</a> -
+            No AI Webring -
+            <a href="https://baccyflap.com/noai/?nxt&s=sha">Next</a>
+            <br>
+            <sub>
+              <a href="https://baccyflap.com/noai">Index</a> -
+              <a href="https://baccyflap.com/noai/#:~:text=list%20of%20members">Members</a>
+            </sub>
+          </div>
+        </div>
+        <hr>
+        <h2>Web Feeds</h2>
+        <ul>
+          <li><a href="/atom.xml">Atom</a></li>
+        </ul>
+        <hr>
+        <h2>Site Pages</h2>
+        <ul>
+          <li><a href="/index.htm">Index/Home</a></li>
+          <li><a href="/changelog.htm">Changelog</a></li>
+          <li><a href="/archive.htm">Archive</a></li>
+          <li><a href="/webring.htm">Webring</a></li>
+          <li><a href="/notes/index.htm">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="right" class="sidebar content">
+      <div class="sidebar-contents">
+        <span>Today's song:</span>
+        <h2 class="no-margin">I'm so Concerned About the Ending That I Don't Even Know the Plot</h2>
+        <sub>
+          Flatsound &bull;
+          on <em>I Stayed Up Until Sunrise But Got To Fall Asleep To The Sounds Of Birds Singing</em> &bull;
+          <a href="https://open.spotify.com/track/1TkrPsgEioLP4W7jLBw3Gm?si=b96c7300ae6c46a7">Spotify</a> &bull;
+          <a href="https://youtu.be/jSZ_nQG3e1s?si=UN122-c1j8pBrgws">YouTube</a>
+        </sub>
+        <iframe style="border:none;margin-top:9px;display:block;width:100%" height="176" width="300" src="https://lastfm-recently-played.vercel.app/api?user=entyspite&bg_color=024&border_radius=0&header_style=none&count=3&width=300"></iframe>
+        <hr>
+        <h2>Buttons</h2>
+        <p>Other sites</p>
+        <div style="text-align:center;" id="button-wrapper">
+          <a href="https://morikei.nekoweb.org">
+            <img src="https://morikei.nekoweb.org/imgs/button.png" alt="morikei">
+          </a>
+          <a href="https://trademarkhell.net">
+            <img src="https://trademarkhell.net/tmsspecialhell.png" alt="trademarkization company of 2003">
+          </a>
+          <a href="https://scythe.nekoweb.org">
+            <img src="https://file.garden/ZxLGTgiSL0nJQIHE/tsuku-v3/scythewav-btn" alt="jack into scythe.wav... NOW">
+          </a>
+          <a href="https://microsounds.github.io">
+            <img src="https://microsounds.github.io/static/button/badge.gif" alt="sentimental microsounds">
+          </a>
+          <a href="https://melankorin.net/">
+            <img src="https://melankorin.net/assets/img/buttons/button-1.gif" alt="melankorin">
+          </a>
+          <a href="https://kaguya.nekoweb.org">
+            <img src="https://kaguya.nekoweb.org/button.gif" alt="Kaguya">
+          </a>
+          <a href="https://maxpixels.moe">
+            <img src="https://maxpixels.moe/images/button.png" alt="max's apartment">
+          </a>
+          <a href="https://joosh.nekoweb.org/">
+            <img src="https://joosh.nekoweb.org/img/icon.gif" alt="joosh">
+          </a>
+          <a href="https://frequency-modulator.nekoweb.org/">
+            <img src="https://frequency-modulator.nekoweb.org/fm.jpg" alt="frequency-modulator">
+          </a>
+          <a href="https://evehibi.nekoweb.org/doodlering/">
+            <img src="https://evehibi.nekoweb.org/doodlering/button.gif" alt="doodlering">
+          </a>
+          <a href="https://adilene.net">
+            <img src="https://adilene.net/images/sitebutton.gif" alt="adilene">
+          </a>
+          <a href="https://astracelestine.nekoweb.org">
+            <img src="https://astracelestine.nekoweb.org/img/siteWidget.png" alt="Astra Celestine">
+          </a>
+        </div>
+        <p>My site</p>
+        <div style="text-align:center">
+          <img src="/static/img/button.gif" class="button" alt="FULLERENE">
+          <div class="button-text">
+            &lt;a
+              href="http://shandriy.github.io"&gt;&lt;img
+              src="http://shandriy.github.io/static/img/button.gif"
+              alt="OVER THE FULLERENESHIFT"&gt;&lt;/a&gt;
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer-small">
+    <hr>
+    <sub>
+      Last updated <a href="https://github.com/shandriy/shandriy.github.io/commits">2024-12-04 19:20:48.640776606 -08:00:00</a>.
+    </sub>
+    <sub>Hand-coded by &#64;shandriy on GitHub @fulerene on Discord (Depends on the POSIX standard, HTML5, <code>pandoc</code>, and <code>lynx</code>) - Tested on Firefox 132.0.1 64-bit Windows and Chrome 1.0.154.59 Windows.</sub>
+    <sub>
+      <a href="https://github.com/shandriy/shandriy.github.io/blob/master/md/notes/2024/11/17.md?plain=1">Page source</a>. Unique visitor counter:
+      <a href="https://www.digits.net"><img src="https://counter.digits.net/?counter={6ade13fd-c0b3-6794-09db-4a00d249196b}&background=002244&template=simple&foreground=ffffff" style="height:11pt;vertical-align:middle;" alt="Hit Counter by Digits" border="0"></a>
+      since 23/11/2024.
+    </sub>
+  </div>
+</body>
+</html>
