@@ -1,0 +1,32 @@
+<h2>9/19/24 - js</h2>
+<hr>
+<p>WARNING WARNING I HAVE NO IDEA WHAT IM TALKING ABOUT (probably)</p>
+<p>Javascript kinda sucks. its a lot <a href="https://eev.ee/blog/2017/10/07/javascript-got-better-while-i-wasnt-looking/">better now than it was a few years ago</a> ofc but still. theres a lot of odd things about js such as how <code>NaN !== NaN</code> but regardless of this it is one of the easiest languages to learn due to the sheer amount of resources compared to almost anything else.</p>
+<p>And am I even a real developer if I write js? I don't really know any other languages and most people use typescript nowadays but i have a big problem with typescript. I do programming for fun. and its really important for me to have as much control as possible.</p>
+<p>When writing a compiled language or a desktop app - you can always go lower. you could always write assembly if you wanted to. that would give you as much control as you could possibly have, but writing assembly is. not easy to say the least. and js on the other hand is the lowest level there is if you want to write things for the web (yes there is wasm BUT ill get to that later). I can have full control over everything without having to write assmebly!! wow!</p>
+<p>The web is also pretty cool in my opinion because a browser is something almost any device will have. You can share things with <i>everyone</i>!!! and that is pretty cool. But. What if someone is on an older browser and it doesnt work with your website.</p>
+<h3>Why I like js</h3>
+<p>In virtually every other language backwards compatibility isn't a problem. If it's interpreted - just download a newer version? if it's compiled - you dont really have a choice. backwards compatibility will depend on the compiler so its up to what language you chose in the first place. javascript is unique in that you dont know how the end-user's browser will interpret your code.</p>
+<p>I like to make things. I like programming especially because of it's consistency. But different browsers, interpreting things differently is. not very consistent. which is. a bit of a problem. so to solve it? just make everything run on chrome 1. nobody uses browsers that old anymore anyways and chrome 1 was released after all the necassary things were added already so its perfect!! And in my opinion, writing everything to be as backwards compatible as possible is extremely fun because of the limitations</p>
+<p>Back to WASM. I would use it because it's lower level but not <i>that</i> bad. it seem like it would be fun to write in WAT. except its only supported by modern browsers....</p>
+<p>Another thing about js is minification. code golf is very fun for me but. it doesn't have any <i>real</i> applications. If youre writing interpreted, you're probably not worried about speed or size - if you were, write compiled. and if youre writing compiled, smaller source code doesnt necassarily mean smaller or faster binaries.</p>
+<p>However, in javascript, code golf has an actual purpose!! minification is everywhere!! and that is pretty cool. imo.</p>
+<h3>Why I <i>don't</i> like js</h3>
+<p>it is very Odd.</p>
+<p>I had a link at the top of the page to eevee's blog which explains everything pretty well. some complaints which i dont even have because i suck at webdev :3. but ofc that article was about how js has gotten better.</p>
+<p>except I hate writing js that isn't backwards compatible... so i have to deal with a lot of. Odd things. my biggest complaint is <code>this</code>. omg. i hate this so much. its probably just because im stupid but. why does <code>this</code> exist....... I cannot understand how this works OKOK this is probably gonna be me being stupid but in my opinion. this is not very intuitive.</p>
+<p>Lets say you have the following code</p>
+<pre>
+  var obj = {
+    constructor: function() {
+      this.xyz = 0;
+    },
+    func: function() {
+      console.log(this);
+    }
+  }
+</pre>
+<p>How come normally <code>this</code> refers to the parent object but when you use <code>new</code> now its. an empty object?????? but what if i wanted to get the parent object in my <code>constructor</code> function?? do i have to use <code>obj</code> now? this is probably just me being stupid but imo this is very annoying and unintuitive</p>
+<p>Another thing i dislike but this might just be me in general and not rlly js. somehow I always end up writing so much boilerplate. this might be because i dont't like using libraries - again, i like having as much control as possible. but maybe I would use js libraries. IF NOT FOR THE FACT THAT NOTHING IS BACKWARDS COMPATIBLE ANYMORE....</p>
+<p>that isnt really a fault of the language itself but. oh well.</p>
+<p>I have no idea how to end things. wow this was probably very messy and i didnt proofread anything :3 thank you!!!!!</p>
