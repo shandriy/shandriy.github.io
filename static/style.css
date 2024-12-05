@@ -6,7 +6,7 @@ html, body {
   font-variant-ligatures: none;
   -webkit-font-variant-ligatures: none;
   font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
-  background-color: #000;
+  background-color: #126;
   margin: 0;
   padding: 0;
   font-size: 11pt;
@@ -83,6 +83,8 @@ td {
   margin: 0;
   padding: 0;
   width: 60%;
+  box-shadow: 0 0 20px #000;
+  -webkit-box-shadow: 0 0 20px #000;
 }
 
 #markdown-contents {
@@ -90,17 +92,25 @@ td {
 }
 
 #center a {
-  color: #888;
+  color: #24c;
+  text-decoration: none;
+  transition: color;
+  transition-duration: 100ms;
 }
 #center a:hover {
-  color: #aaa;
+  color: #000;
+  text-decoration: underline;
 }
 
 .sidebar a {
-  color: #aaa;
+  color: #6cf;
+  text-decoration: none;
+  transition: color;
+  transition-duration: 100ms;
 }
 .sidebar a:hover {
-  color: #888;
+  color: #fff;
+  text-decoration: underline;
 }
 #footer-small {
   display: none;
@@ -166,7 +176,7 @@ td {
     position: static;
     display: block;
     width: 100%;
-    background-color: #000;
+    background-color: #126;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     margin-bottom: 0;
