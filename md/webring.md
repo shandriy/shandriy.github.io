@@ -133,5 +133,19 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>sol's personal website :D</td>
       <td>Site up, webring not linked &hellip;</td>
     </tr>
+    <tr>
+      <td><a href="https://mappapapa.neocities.org">spillingdown</a></td>
+      <td>`SPL`</td>
+      <td><img src="/static/img/buttons/button-spilly-MAPPAPAPA.gif" style="vertical-align:middle;width:88px"></td>
+      <td>drawings and thoughts. old man uke addict.</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td><a href="https://mimiya.nekoweb.org">Miya</a></td>
+      <td>`MYA`</td>
+      <td><img src="/static/img/buttons/Miyamayb.png" style="vertical-align:middle;width:88px"></td>
+      <td>lots of ramblings and (hopefully) cool stories (´･ᴗ･ `)</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
   </tbody>
 </table>
