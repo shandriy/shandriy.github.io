@@ -1,0 +1,43 @@
+#!/bin/sh
+
+prefix="$0:"
+
+if [ -z "$1" ]
+then
+
+  echo "$prefix Config file was not provided"
+  echo "$prefix Cannot continue"
+  exit
+
+fi
+
+found_config=""
+previous_path="$(realpath .)_"
+
+while [ "$(realpath .)" != "$previous_path" ]
+do
+
+  previous_path="$(realpath .)"
+
+  if [ -f "$1" ]
+  then
+
+    found_config="$(realpath .)"
+    echo "$prefix Found config in $(realpath .)."
+    . "$(realpath $1)"
+    break
+
+  fi
+
+  cd ..
+
+done
+
+if [ -z "$found_config" ]
+then
+
+  echo "$prefix Config file was not found"
+  echo "$prefix Cannot continue"
+  exit
+
+fi
