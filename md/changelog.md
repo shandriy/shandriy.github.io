@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 10/12/2024
+
+- Added a number for every webring member
+
 ### 4/12/2024
 
 - Added archive of previous site layouts
