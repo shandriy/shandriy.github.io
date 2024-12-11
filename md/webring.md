@@ -76,6 +76,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
 <table style="width:100%">
   <thead>
     <tr>
+      <th>&numero;</th>
       <th>Name</th>
       <th>ID</th>
       <th>Button</th>
@@ -85,6 +86,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
   </thead>
   <tbody>
     <tr>
+      <td>`0`</td>
       <td><a href="https://shandriy.github.io">FULLERENE</a></td>
       <td>`SHA`</td>
       <td><img src="/static/img/button.gif" style="vertical-align:middle;width:88px"></td>
@@ -92,6 +94,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
+      <td>`1`</td>
       <td><a href="https://zziz.nekoweb.org">zziz</a></td>
       <td>`RKI`</td>
       <td><img src="/static/img/buttons/zziz.gif" style="vertical-align:middle;width:88px"></td>
@@ -99,6 +102,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
+      <td>`2`</td>
       <td><a href="https://coffeeknife.nekoweb.org">coffeeknife</a></td>
       <td>`CKN`</td>
       <td><img src="/static/img/buttons/RobinAlexander.png" style="vertical-align:middle;width:88px"></td>
@@ -106,6 +110,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
+      <td>`3`</td>
       <td><a href="https://aroceu.com">Arrow</a></td>
       <td>`CEU`</td>
       <td><img src="/static/img/buttons/ArrowSparrow.png" style="vertical-align:middle;width:88px"></td>
@@ -113,6 +118,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
+      <td>`4`</td>
       <td><a href="https://kittyrave.club">kittyrave</a></td>
       <td>`KIT`</td>
       <td><img src="/static/img/buttons/Miles.gif" style="vertical-align:middle;width:88px"></td>
@@ -120,6 +126,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
+      <td>`5`</td>
       <td><a href="https://otaku.nekoweb.org">otaku</a></td>
       <td>`LBX`</td>
       <td><img src="/static/img/buttons/h.gif" style="vertical-align:middle;width:88px"></td>
@@ -127,6 +134,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
+      <td>`6`</td>
       <td><a href="https://ultrakill.nekoweb.org">ULTRAKILL</a></td>
       <td>`SOL`</td>
       <td><img src="/static/img/buttons/SofiaGonzalesCH.png" style="vertical-align:middle;width:88px"></td>
@@ -134,6 +142,7 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>Site up, webring not linked &hellip;</td>
     </tr>
     <tr>
+      <td>`7`</td>
       <td><a href="https://mappapapa.neocities.org">spillingdown</a></td>
       <td>`SPL`</td>
       <td><img src="/static/img/buttons/button-spilly-MAPPAPAPA.gif" style="vertical-align:middle;width:88px"></td>
@@ -141,10 +150,19 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
       <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
+      <td>`8`</td>
       <td><a href="https://mimiya.nekoweb.org">Miya</a></td>
       <td>`MYA`</td>
       <td><img src="/static/img/buttons/Miyamayb.png" style="vertical-align:middle;width:88px"></td>
-      <td>lots of ramblings and (hopefully) cool stories (´･ᴗ･ `)</td>
+      <td>lots of ramblings and (hopefully) cool stories (´･ᴗ･ \`)</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`9`</td>
+      <td><a href="https://chimerathing.neocities.org">Gabriel</a></td>
+      <td>`GAB`</td>
+      <td><img src="/static/img/buttons/GabrielReyes.png" style="vertical-align:middle;width:88px"></td>
+      <td>*No description*</td>
       <td>Site up, webring not linked &hellip;</td>
     </tr>
   </tbody>
