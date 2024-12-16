@@ -179,5 +179,13 @@ READ THE RED HIGHLIGHTED TEXT
       <td>i literally just made this so theres not a lot of content on it yet but.. trust. i like yaoi</td>
       <td>Site up, webring not linked &hellip;</td>
     </tr>
+    <tr>
+      <td>`11`</td>
+      <td><a href="https://cthrsis.nukawinter.art/">nukawinter</a></td>
+      <td>`CTH`</td>
+      <td><img src="/static/img/buttons/KaroSmith.png" style="vertical-align:middle;width:88px"></td>
+      <td>A DMC/RE AU site for art, headcanons, and more art. A fusion of early 2000s art sites and 2014 AU Blog. Mind the warnings!</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
   </tbody>
 </table>
