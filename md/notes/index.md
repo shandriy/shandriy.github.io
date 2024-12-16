@@ -4,7 +4,7 @@ generic.htm
 
 ### 12/2024
 
-*No posts yet*
+- 16/12/2024 - [Night Time Exploration and Where I've Been](/notes/2024/12/16.htm)
 
 ### 11/2024
 

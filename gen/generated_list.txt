@@ -4,5 +4,7 @@
 ./notes/2024/11/17.htm
 ./notes/2024/11/23.htm
 ./notes/2024/11/30.htm
+./notes/2024/12
+./notes/2024/12/16.htm
 ./notes/index.htm
 ./webring.htm
