@@ -15,7 +15,7 @@ DATE=$(date +"%F %T.%N %::z")
 SECONDS=$(date +"%s")
 FOOTER_TEXT=$(cat ./src/footer-text.htm)
 
-SONG="EARFQUAKE"
+SONG="Neva"
 
 # Get song script
 
