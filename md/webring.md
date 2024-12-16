@@ -19,7 +19,13 @@ Meet all the requirements? Go [here](https://forms.gle/J1tjzacMmLTsHP9R9) and ad
 
 ### Widget
 
-Paste one of the snippets below somewhere on your page, or you can modify and make your own version. Make sure to replace "{IDENTIFIER}" with the 3 letter identifier you chose.
+Paste one of the snippets below somewhere on your page, or you can modify and make your own version. <span style="color:#f00;">Make sure to replace "{IDENTIFIER}" with the 3 letter identifier you chose.</span> Some of y'all really need to learn to read. <span style="font-weight:bolder">THIS IS REALLY IMPORTANT DON'T FUCKING MISS IT</span>
+
+<span style="font-weight:bolder;font-size:large;color:#f00;">MAKE SURE YOU'RE FOLLOWING THE INSTRUCTIONS</span>
+
+If you didn't read the text above read it right now before you fucking do anything else.
+
+READ THE RED HIGHLIGHTED TEXT
 
 ```
 <!--yuri-->
@@ -37,9 +43,9 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
   font-family:'Liberation Serif','Times New Roman',Times,serif;
   font-size:22px">
   <span style="display:inline-block;align-self:end;justify-self:center;text-align:center">
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a>
+      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <!-- REPLACE "{IDENTIFIER}" WITH /YOUR/ IDENTIFIER-->
       <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YURI WEBRING</a>
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a>
+      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a> <!-- REPLACE "{IDENTIFIER}" WITH /YOUR/ IDENTIFIER-->
   </span>
 </div>
 ```
@@ -60,9 +66,9 @@ Paste one of the snippets below somewhere on your page, or you can modify and ma
   font-family:'Liberation Serif','Times New Roman',Times,serif;
   font-size:22px">
   <span style="display:inline-block;align-self:end;justify-self:center;text-align:center">
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a>
+      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <!-- REPLACE "{IDENTIFIER}" WITH /YOUR/ IDENTIFIER-->
       <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YAOI WEBRING</a>
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a>
+      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a> <!-- REPLACE "{IDENTIFIER}" WITH /YOUR/ IDENTIFIER-->
   </span>
 </div>
 ```
