@@ -171,5 +171,13 @@ READ THE RED HIGHLIGHTED TEXT
       <td>*No description*</td>
       <td>Site up, webring not linked &hellip;</td>
     </tr>
+    <tr>
+      <td>`10`</td>
+      <td><a href="https://brooklethill.nekoweb.org">paul</a></td>
+      <td>`BRK`</td>
+      <td><img src="/static/img/buttons/BattleLegendBlue.png" style="vertical-align:middle;width:88px"></td>
+      <td>i literally just made this so theres not a lot of content on it yet but.. trust. i like yaoi</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
   </tbody>
 </table>
