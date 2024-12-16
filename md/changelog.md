@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 16/12/2024
+
+- Added [new blog post](/notes/2024/12/16.htm)
+
 ### 10/12/2024
 
 - Added a number for every webring member
