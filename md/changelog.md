@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 17/12/2024
+
+- Updated "OVER THE FULLERENESHIFT" text style
+
 ### 16/12/2024
 
 - Added [new blog post](/notes/2024/12/16.htm)
