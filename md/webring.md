@@ -27,6 +27,8 @@ If you didn't read the text above read it right now before you fucking do anythi
 
 READ THE RED HIGHLIGHTED TEXT
 
+You can style the widget however you want, as long as the links are still there.
+
 ```
 <!--yuri-->
 
