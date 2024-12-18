@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 18/12/2024
+
+- Added quote from song of the day as subtitle
+
 ### 17/12/2024
 
 - Updated "OVER THE FULLERENESHIFT" text style
