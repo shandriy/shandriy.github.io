@@ -189,5 +189,13 @@ You can style the widget however you want, as long as the links are still there.
       <td>A DMC/RE AU site for art, headcanons, and more art. A fusion of early 2000s art sites and 2014 AU Blog. Mind the warnings!</td>
       <td>Site up, webring linked &check;</td>
     </tr>
+    <tr>
+      <td>`12`</td>
+      <td><a href="https://dreamscape.nekoweb.org">xiaoshan</a></td>
+      <td>`XSH`</td>
+      <td><img src="/static/img/buttons/ezgif-5-xiao.gif" style="vertical-align:middle;width:88px"></td>
+      <td>a little place that holds all my dreams.</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
   </tbody>
 </table>
