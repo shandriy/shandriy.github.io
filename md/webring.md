@@ -171,7 +171,7 @@ You can style the widget however you want, as long as the links are still there.
       <td>`GAB`</td>
       <td><img src="/static/img/buttons/GabrielReyes.png" style="vertical-align:middle;width:88px"></td>
       <td>*No description*</td>
-      <td>Site up, webring not linked &hellip;</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
       <td>`10`</td>
@@ -195,6 +195,14 @@ You can style the widget however you want, as long as the links are still there.
       <td>`XSH`</td>
       <td><img src="/static/img/buttons/ezgif-5-xiao.gif" style="vertical-align:middle;width:88px"></td>
       <td>a little place that holds all my dreams.</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`13`</td>
+      <td><a href="https://sunfishdreamworld.neocities.org">Rin</a></td>
+      <td>`SDW`</td>
+      <td><img src="/static/img/buttons/sunfishdreamworld-rinny_rin.gif" style="vertical-align:middle;width:88px"></td>
+      <td>my personal blog with occasional yuri/yaoi content</td>
       <td>Site up, webring not linked &hellip;</td>
     </tr>
   </tbody>
