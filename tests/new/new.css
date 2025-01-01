@@ -1,0 +1,44 @@
+.new-p {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.new-h1,
+.new-h2,
+.new-h3,
+.new-h4,
+.new-h5,
+.new-h6 {
+  font-family: Tinos, "Times New Roman", Times, sans-serif;
+  margin: 0;
+}
+
+.new-p {
+  font-size: 11pt;
+  text-indent: 4em;
+}
+
+.new-h1 {
+  font-size: 30pt;
+  font-weight: 400;
+}
+.new-h2 {
+  font-size: 24pt;
+  font-weight: 500;
+}
+.new-h3 {
+  font-size: 18pt;
+  font-weight: 600;
+}
+.new-h4 {
+  font-size: 14pt;
+  font-weight: 700;
+}
+.new-h5 {
+  font-size: 12pt;
+  font-weight: 800;
+}
+.new-h6 {
+  font-size: 11pt;
+  font-weight: 900;
+}
