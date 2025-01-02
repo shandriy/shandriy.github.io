@@ -10,5 +10,8 @@
 ./md/notes/2024/11/30.md
 ./md/notes/2024/12
 ./md/notes/2024/12/16.md
+./md/notes/2025
+./md/notes/2025/1
+./md/notes/2025/1/1.md
 ./md/notes/index.md
 ./md/webring.md

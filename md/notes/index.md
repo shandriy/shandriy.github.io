@@ -2,6 +2,10 @@ generic.htm
 
 ## Notes
 
+### 1/2025
+
+- 1/1/2025 - [Neon White - Almost Perfect](/notes/2025/1/1.htm)
+
 ### 12/2024
 
 - 16/12/2024 - [Night Time Exploration and Where I've Been](/notes/2024/12/16.htm)

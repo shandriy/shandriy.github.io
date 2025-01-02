@@ -1,6 +1,6 @@
 generic.htm
 
-<p style="text-indent:0;">NEW BLOG POST - 16/12/2024, [Night Time Exploration and Where I’ve Been](/notes/2024/12/16.htm)</p>
+<p style="text-indent:0;">NEW BLOG POST - 1/1/2025, [Neon White - Almost Perfect](/notes/2025/1/1.htm)</p>
 
 <h2 style="margin-bottom:0">About me</h2>
 <p style="margin-top:0;text-indent:0;text-decoration:none;">*~[Sign my guestbook!](https://enty.atabook.org)~*</p>
