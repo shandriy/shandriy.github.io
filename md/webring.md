@@ -203,7 +203,7 @@ You can style the widget however you want, as long as the links are still there.
       <td>`SDW`</td>
       <td><img src="/static/img/buttons/sunfishdreamworld-rinny_rin.gif" style="vertical-align:middle;width:88px"></td>
       <td>my personal blog with occasional yuri/yaoi content</td>
-      <td>Site up, webring not linked &hellip;</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
   </tbody>
 </table>
