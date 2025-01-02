@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 1/1/2024
+
+- Added [new blog post](/notes/2025/1/1.htm)
+
 ### 18/12/2024
 
 - Added quote from song of the day as subtitle
