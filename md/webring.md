@@ -211,7 +211,7 @@ You can style the widget however you want, as long as the links are still there.
       <td>`GAY`</td>
       <td><img src="/static/img/buttons/Mochi.gif" style="vertical-align:middle;width:88px"></td>
       <td>*No description*</td>
-      <td>Site up, webring not linked &hellip;</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
   </tbody>
 </table>
