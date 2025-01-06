@@ -205,5 +205,13 @@ You can style the widget however you want, as long as the links are still there.
       <td>my personal blog with occasional yuri/yaoi content</td>
       <td>Site up, webring linked &check;</td>
     </tr>
+    <tr>
+      <td>`14`</td>
+      <td><a href="https://pussydestroyer2000.nekoweb.org">KitKat</a></td>
+      <td>`GAY`</td>
+      <td><img src="/static/img/buttons/Mochi.gif" style="vertical-align:middle;width:88px"></td>
+      <td>*No description*</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
   </tbody>
 </table>
