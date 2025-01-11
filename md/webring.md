@@ -179,7 +179,7 @@ You can style the widget however you want, as long as the links are still there.
       <td>`BRK`</td>
       <td><img src="/static/img/buttons/BattleLegendBlue.png" style="vertical-align:middle;width:88px"></td>
       <td>i literally just made this so theres not a lot of content on it yet but.. trust. i like yaoi</td>
-      <td>Site up, webring not linked &hellip;</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
       <td>`11`</td>
