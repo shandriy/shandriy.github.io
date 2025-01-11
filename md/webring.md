@@ -213,5 +213,45 @@ You can style the widget however you want, as long as the links are still there.
       <td>*No description*</td>
       <td>Site up, webring linked &check;</td>
     </tr>
+    <tr>
+      <td>`15`</td>
+      <td><a href="https://yumeoi.skin">Sav</a></td>
+      <td>`SAV`</td>
+      <td><img src="/static/img/buttons/uhhhhhhhhhhhhh-Isopod_Larping.gif" style="vertical-align:middle;width:88px"></td>
+      <td>personal vtuber themed site</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`16`</td>
+      <td><a href="https://pastel-skies.nekoweb.org">Nova</a></td>
+      <td>`BUH`</td>
+      <td><img src="/static/img/buttons/Nova_Galaxium_Button-Cielos_Nova_Pasteles.gif" style="vertical-align:middle;width:88px"></td>
+      <td>Pursuing my childhood dream to finally make a website of my own.</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
+    <tr>
+      <td>`17`</td>
+      <td><a href="https://estranged.nekoweb.org/">Nicky</a></td>
+      <td>`NIK`</td>
+      <td><img src="/static/img/buttons/emTTyTK.gif" style="vertical-align:middle;width:88px"></td>
+      <td>*No description*</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`18`</td>
+      <td><a href="https://2rin.nekoweb.org">torinumimi</a></td>
+      <td>`RIN`</td>
+      <td><img src="/static/img/buttons/pickle_b.png" style="vertical-align:middle;width:88px"></td>
+      <td>the website will squeak at you.</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
+    <tr>
+      <td>`19`</td>
+      <td><a href="https://crystalclearcrystalline.neocities.org/">crystal</a></td>
+      <td>`BLH`</td>
+      <td><img src="/static/img/buttons/crystalline_button_2.png" style="vertical-align:middle;width:88px"></td>
+      <td>A personal website for messy little creations</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
   </tbody>
 </table>
