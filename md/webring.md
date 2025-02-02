@@ -243,7 +243,7 @@ You can style the widget however you want, as long as the links are still there.
       <td>`RIN`</td>
       <td><img src="/static/img/buttons/pickle_b.png" style="vertical-align:middle;width:88px"></td>
       <td>the website will squeak at you.</td>
-      <td>Site up, webring not linked &hellip;</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
       <td>`19`</td>
@@ -251,7 +251,47 @@ You can style the widget however you want, as long as the links are still there.
       <td>`BLH`</td>
       <td><img src="/static/img/buttons/crystalline_button_2.png" style="vertical-align:middle;width:88px"></td>
       <td>A personal website for messy little creations</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`20`</td>
+      <td><a href="https://pawpyrus.art">pyrus</a></td>
+      <td>`PPY`</td>
+      <td><img src="/static/img/buttons/pyrus.gif" style="vertical-align:middle;width:88px"></td>
+      <td>a personal website filled with far too many shrines</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`21`</td>
+      <td><a href="https://hazardtoons.neocities.org/">hazardtoons</a></td>
+      <td>`DNA`</td>
+      <td>*No button*</td>
+      <td>*No description*</td>
       <td>Site up, webring not linked &hellip;</td>
+    </tr>
+    <tr>
+      <td>`22`</td>
+      <td><a href="https://harlequi.nz">nancy</a></td>
+      <td>`NCY`</td>
+      <td><img src="/static/img/buttons/nancy_valentine.png" style="vertical-align:middle;width:88px"></td>
+      <td>personal circus of a digital clown</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`23`</td>
+      <td><a href="https://moosen.neocities.org/">Moosen</a></td>
+      <td>`MOS`</td>
+      <td><img src="/static/img/buttons/Moosenworldbtn-Moose.gif" style="vertical-align:middle;width:88px"></td>
+      <td>Multimedia art website dedicated to my silly characters! Homegrown yuri and yaoi included :)</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`24`</td>
+      <td><a href="https://aniverbockt.neocities.org/">Atila</a></td>
+      <td>`ANI`</td>
+      <td><img src="/static/img/buttons/aniverbockt-Alite_.gif" style="vertical-align:middle;width:88px"></td>
+      <td>just a silly, weird website</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
   </tbody>
 </table>
