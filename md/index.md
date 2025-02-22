@@ -1,6 +1,6 @@
 generic.htm
 
-<p style="text-indent:0;">NEW BLOG POST - 1/1/2025, [Neon White - Almost Perfect](/notes/2025/1/1.htm)</p>
+<p style="text-indent:0;">NEW BLOG POST - 21/2/2025, [A Necassary Update](/notes/2025/2/21.htm)</p>
 
 <h2 style="margin-bottom:0">About me</h2>
 <p style="margin-top:0;text-indent:0;text-decoration:none;">*~[Sign my guestbook!](https://enty.atabook.org)~*</p>
@@ -50,7 +50,7 @@ I have a tendency to restart unfinished projects a lot so if this website looks 
 Links to some random pages I like:
 
 - [microsounds](https://microsounds.github.io/) - Inspired me to keep working on my website!
-- [eden's website](https://eda.gay) - Currently the design is basically just taken straight from there.
+- [eden's website](https://eda.gay) - Currently the design is basically just taken straight from there. (This isn't true anymore, but still a really cool page!)
 - [nekoweb](https://nekoweb.org/) - Where I used to host my site!
 - [neocities](https://neocities.org) - Similar to nekoweb. I haven't really used it but still pretty cool.
 

@@ -9,5 +9,7 @@
 ./notes/2025
 ./notes/2025/1
 ./notes/2025/1/1.htm
+./notes/2025/2
+./notes/2025/2/21.htm
 ./notes/index.htm
 ./webring.htm

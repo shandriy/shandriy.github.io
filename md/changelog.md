@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 21/2/2024
+
+- Added [new blog post](/notes/2025/2/21.htm)
+
 ### 1/1/2024
 
 - Added [new blog post](/notes/2025/1/1.htm)
