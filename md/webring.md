@@ -8,76 +8,7 @@ If you don't know what a webring is, a webring is a collection of websites by pe
 
 ### Join
 
-There are a few rules:
-
-1. As mentioned, enjoying yuri, yaoi, or anything else that's gay and anime
-2. Don't be homophobic, racist, misogynistic, etc, although I doubt this'll be a problem
-3. Have your own website! It's preferable if you coded it yourself with no or minimal AI use, but it's fine either way
-4. If you have anything NSFW on your site, there has to be a warning of some sort
-
-Meet all the requirements? Go [here](https://forms.gle/J1tjzacMmLTsHP9R9) and add a widget to your site once you're done.
-
-### Widget
-
-Paste one of the snippets below somewhere on your page, or you can modify and make your own version. <span style="color:#f00;">Make sure to replace "{IDENTIFIER}" with the 3 letter identifier you chose.</span> Some of y'all really need to learn to read. <span style="font-weight:bolder">THIS IS REALLY IMPORTANT DON'T FUCKING MISS IT</span>
-
-<span style="font-weight:bolder;font-size:large;color:#f00;">MAKE SURE YOU'RE FOLLOWING THE INSTRUCTIONS</span>
-
-If you didn't read the text above read it right now before you fucking do anything else.
-
-READ THE RED HIGHLIGHTED TEXT
-
-You can style the widget however you want, as long as the links are still there.
-
-```
-<!--yuri-->
-
-<div style="
-  background-image:
-    linear-gradient(to top,#000,#00000000),
-    url('https://anteikuanimereviews.com/wp-content/uploads/2021/02/meiyuzukiss3.jpg?w=1024'); <!--You can replace the art with anything you want by editing this line!-->
-  background-size:cover;
-  display:grid;
-  height:144px;
-  width:256px;
-  border-radius:16px;
-  color:#fff;
-  font-family:'Liberation Serif','Times New Roman',Times,serif;
-  font-size:22px">
-  <span style="display:inline-block;align-self:end;justify-self:center;text-align:center">
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <!-- REPLACE "{IDENTIFIER}" WITH /YOUR/ IDENTIFIER-->
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YURI WEBRING</a>
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a> <!-- REPLACE "{IDENTIFIER}" WITH /YOUR/ IDENTIFIER-->
-  </span>
-</div>
-```
-
-```
-<!--yaoi-->
-
-<div style="
-  background-image:
-    linear-gradient(to top,#000,#00000000),
-    url('https://mwappimgs.cc/static/upload2/book/id/48904/cover_1.jpg?v=1723606232'); <!--You can replace the art with anything you want by editing this line!-->
-  background-size:cover;
-  display:grid;
-  height:144px;
-  width:256px;
-  border-radius:16px;
-  color:#fff;
-  font-family:'Liberation Serif','Times New Roman',Times,serif;
-  font-size:22px">
-  <span style="display:inline-block;align-self:end;justify-self:center;text-align:center">
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <!-- REPLACE "{IDENTIFIER}" WITH /YOUR/ IDENTIFIER-->
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YAOI WEBRING</a>
-      <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a> <!-- REPLACE "{IDENTIFIER}" WITH /YOUR/ IDENTIFIER-->
-  </span>
-</div>
-```
-
-<div style="background-image:linear-gradient(to top,#000,#00000000),url('https://anteikuanimereviews.com/wp-content/uploads/2021/02/meiyuzukiss3.jpg?w=1024');background-size:cover;display:grid;height:144px;width:256px;border-radius:16px;color:#fff;font-family:'Liberation Serif','Times New Roman',Times,serif;font-size:22px"><span style="display:inline-block;align-self:end;justify-self:center;text-align:center"><a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YURI WEBRING</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a></span></div>
-<br>
-<div style="background-image:linear-gradient(to top,#000,#00000000),url('https://mwappimgs.cc/static/upload2/book/id/48904/cover_1.jpg?v=1723606232');background-size:cover;display:grid;height:144px;width:256px;border-radius:16px;color:#fff;font-family:'Liberation Serif','Times New Roman',Times,serif;font-size:22px"><span style="display:inline-block;align-self:end;justify-self:center;text-align:center"><a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}0">&lArr;</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/webring.htm">YAOI WEBRING</a> <a style="text-decoration:none;color:#fff" href="https://shandriy.github.io/static/webring.htm#{IDENTIFIER}1">&rArr;</a></span></div>
+Unfortunately, I've decided to stop accepting new members. Due to my complete inactivity recently, it is taking a very long time to add new members and I've been unable to hold myself responsible to this. If anyone is interested, I am willing to transfer ownership of the webring to someone else. You can find me at [entyspite@gmail.com](mailto:entyspite@gmail.com) and I'm glad to work something out - I'll be checking my e-mail *at least* once a week. If you've already submitted a join request, you should already be added or will be added shortly. Thank you, and sorry for the inconvenience.
 
 ### Members
 
