@@ -4,7 +4,7 @@ generic.htm
 
 ### 2/2025
 
-- 21/2/2025 - [Neon White - Almost Perfect](/notes/2025/1/1.htm)
+- 21/2/2025 - [A Necassary Update](/notes/2025/1/1.htm)
 
 ### 1/2025
 
