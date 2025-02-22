@@ -224,5 +224,53 @@ Unfortunately, I've decided to stop accepting new members. Due to my complete in
       <td>just a silly, weird website</td>
       <td>Site up, webring linked &check;</td>
     </tr>
+    <tr>
+      <td>`25`</td>
+      <td><a href="https://littlevampire.neocities.org/">littlevampire</a></td>
+      <td>`VAM`</td>
+      <td><img src="/static/img/buttons/v2_Damien_Prince.png" style="vertical-align:middle;width:88px"></td>
+      <td>the personal website of a trans vampire boy, featuring art galleries and many shrines about various interests from vintage toys to gothic musicals.</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`26`</td>
+      <td><a href="https://gameboy.digital">cleo</a></td>
+      <td>`PKN`</td>
+      <td><img src="/static/img/buttons/CleoCastanier.gif" style="vertical-align:middle;width:88px"></td>
+      <td>pokemon, pokemon, Pokemon, DEAR GOD ITS ALL POKEMON</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
+    <tr>
+      <td>`27`</td>
+      <td><a href="https://nightmarefish.neocities.org/">March</a></td>
+      <td>`FSH`</td>
+      <td><img src="/static/img/buttons/fishbutton-March.png" style="vertical-align:middle;width:88px"></td>
+      <td>Personal blog/landing page for whatever I want</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`28`</td>
+      <td><a href="https://shoals.neocities.org/">Shoals</a></td>
+      <td>`JAM`</td>
+      <td><img src="/static/img/buttons/jaime.gif" style="vertical-align:middle;width:88px"></td>
+      <td>personal website which i use for my own nerd junk! yaoi/yuri ramblings possibly coming in the future</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`29`</td>
+      <td><a href="https://electraaa.nekoweb.org/index.html">El3ctraaa</a></td>
+      <td>`LEZ`</td>
+      <td><img src="/static/img/buttons/Madyson_Self.png" style="vertical-align:middle;width:88px"></td>
+      <td>My personal website! I just add things I like.</td>
+      <td>Site up, webring linked &check;</td>
+    </tr>
+    <tr>
+      <td>`30`</td>
+      <td><a href="https://acyfactory.com/">Acy Factory</a></td>
+      <td>`ACY`</td>
+      <td><img src="/static/img/buttons/lizard_31_button.png" style="vertical-align:middle;width:88px"></td>
+      <td>The personal website of Acy Factory, himejoshi warrior.</td>
+      <td>Site up, webring not linked &hellip;</td>
+    </tr>
   </tbody>
 </table>
