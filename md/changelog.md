@@ -11,6 +11,7 @@ generic.htm
 
 ### 22/2/2025
 
+- Fixed broken site buttons
 - Added [NavLink Ads](https://dimden.dev/navlinkads/)
 - Added a [Johnvertisment](https://john.citrons.xyz/)
 
