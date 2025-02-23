@@ -9,11 +9,15 @@ generic.htm
 
 ## Changelog
 
-### 21/2/2024
+### 22/2/2025
+
+- Added a [Johnvertisment](https://john.citrons.xyz/)
+
+### 21/2/2025
 
 - Added [new blog post](/notes/2025/2/21.htm)
 
-### 1/1/2024
+### 1/1/2025
 
 - Added [new blog post](/notes/2025/1/1.htm)
 
