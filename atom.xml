@@ -4,22 +4,26 @@
   <subtitle>Personal website.</subtitle>
   <link href="http://shandriy.github.io/atom.xml" rel="self"/>
   <link href="http://shandriy.github.io"/>
-  <updated>2025-2-21T00:00:00.000Z</updated>
+  <updated>2025-3-1T00:00:00.000Z</updated>
   <author>
     <name>Shandriy</name>
   </author>
   <id>http://shandriy.github.io</id>
   <entry>
     <content></content>
-    <title>A Necassary Update</title>
-    <link href="https://shandriy.github.io/./notes/2025/2/21.htm"/>
-    <id>./notes/2025/2/21.htm</id>
-    <updated>2025-2-21T00:00:00.000Z</updated>
-    <summary>   Before I address anything else - the webring. As I'm writing this right
-   now, (although by the time this post is released, this shouldn't be an
-   issue) there are 6 people waiting to be added to my webring. Some for
-   nearly 20 days now - and I haven't done anything because I'm lazy. For
-   this reason, and knowing that I can't force myself to be responsible in
-   this aspect, I'm no longer accepting new members....</summary>
+    <title>The Issues With Modern Firefox and Why I'm Switching</title>
+    <link href="https://shandriy.github.io/./notes/2025/3/1.htm"/>
+    <id>./notes/2025/3/1.htm</id>
+    <updated>2025-3-1T00:00:00.000Z</updated>
+    <summary>   Firefox was good, mostly, for not being Chrome - that, and privacy
+   concerns. Literally the first text you see going on the [1]Firefox
+   website is "Get the browser that puts your privacy first — and always
+   has." Except, not anymore. Although I would imagine anyone reading this
+   is already aware, a few days before writing this, Firefox updated their
+   Terms of Use....
+
+References
+
+   1. https://www.mozilla.org/en-US/firefox/</summary>
   </entry>
 </feed>

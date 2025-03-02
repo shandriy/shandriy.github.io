@@ -11,5 +11,7 @@
 ./notes/2025/1/1.htm
 ./notes/2025/2
 ./notes/2025/2/21.htm
+./notes/2025/3
+./notes/2025/3/1.htm
 ./notes/index.htm
 ./webring.htm

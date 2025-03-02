@@ -2,9 +2,13 @@ generic.htm
 
 ## Notes
 
+### 3/2025
+
+- 1/3/2025 - [The Issues With Modern Firefox and Why I'm Switching](/notes/2025/3/1.htm)
+
 ### 2/2025
 
-- 21/2/2025 - [A Necassary Update](/notes/2025/1/1.htm)
+- 21/2/2025 - [A Necassary Update](/notes/2025/2/21.htm)
 
 ### 1/2025
 

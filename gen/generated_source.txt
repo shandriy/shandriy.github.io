@@ -15,5 +15,7 @@
 ./md/notes/2025/1/1.md
 ./md/notes/2025/2
 ./md/notes/2025/2/21.md
+./md/notes/2025/3
+./md/notes/2025/3/1.md
 ./md/notes/index.md
 ./md/webring.md

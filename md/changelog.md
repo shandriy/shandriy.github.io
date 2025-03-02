@@ -9,6 +9,10 @@ generic.htm
 
 ## Changelog
 
+### 1/3/2025
+
+- Added [new blog post](/notes/2025/3/1.htm)
+
 ### 22/2/2025
 
 - Fixed broken site buttons

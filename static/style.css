@@ -128,6 +128,11 @@ td {
   display: none;
 }
 
+blockquote {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
 #button-wrapper a {
   text-decoration: none;
 }
