@@ -158,7 +158,7 @@ Unfortunately, I've decided to stop accepting new members. Due to my complete in
       <td>`BUH`</td>
       <td><img src="/static/img/buttons/Nova_Galaxium_Button-Cielos_Nova_Pasteles.gif" style="vertical-align:middle;width:88px"></td>
       <td>Pursuing my childhood dream to finally make a website of my own.</td>
-      <td>Site up, webring not linked &hellip;</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
     <tr>
       <td>`17`</td>
@@ -270,7 +270,7 @@ Unfortunately, I've decided to stop accepting new members. Due to my complete in
       <td>`ACY`</td>
       <td><img src="/static/img/buttons/lizard_31_button.png" style="vertical-align:middle;width:88px"></td>
       <td>The personal website of Acy Factory, himejoshi warrior.</td>
-      <td>Site up, webring not linked &hellip;</td>
+      <td>Site up, webring linked &check;</td>
     </tr>
   </tbody>
 </table>
