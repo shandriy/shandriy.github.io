@@ -4,6 +4,7 @@ generic.htm
 
 ### 3/2025
 
+- 19/3/2025 - [Creating a Web Scraper - Thoughts on JavaScript and Why Archival is Necassary](/notes/2025/3/19.htm)
 - 1/3/2025 - [The Issues With Modern Firefox and Why I'm Switching](/notes/2025/3/1.htm)
 
 ### 2/2025

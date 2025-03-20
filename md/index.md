@@ -1,6 +1,6 @@
 generic.htm
 
-<p style="text-indent:0;">NEW BLOG POST - 1/3/2025, [The Issues With Modern Firefox and Why I'm Switching](/notes/2025/3/1.htm)</p>
+<p style="text-indent:0;">NEW BLOG POST - 19/3/2025, [Creating a Web Scraper - Thoughts on JavaScript and Why Archival is Necassary](/notes/2025/3/19.htm)</p>
 
 <h2 style="margin-bottom:0">About me</h2>
 <p style="margin-top:0;text-indent:0;text-decoration:none;">*~[Sign my guestbook!](https://enty.atabook.org)~*</p>

@@ -4,26 +4,28 @@
   <subtitle>Personal website.</subtitle>
   <link href="http://shandriy.github.io/atom.xml" rel="self"/>
   <link href="http://shandriy.github.io"/>
-  <updated>2025-3-1T00:00:00.000Z</updated>
+  <updated>2025-3-19T00:00:00.000Z</updated>
   <author>
     <name>Shandriy</name>
   </author>
   <id>http://shandriy.github.io</id>
   <entry>
     <content></content>
-    <title>The Issues With Modern Firefox and Why I'm Switching</title>
-    <link href="https://shandriy.github.io/./notes/2025/3/1.htm"/>
-    <id>./notes/2025/3/1.htm</id>
-    <updated>2025-3-1T00:00:00.000Z</updated>
-    <summary>   Firefox was good, mostly, for not being Chrome - that, and privacy
-   concerns. Literally the first text you see going on the [1]Firefox
-   website is "Get the browser that puts your privacy first — and always
-   has." Except, not anymore. Although I would imagine anyone reading this
-   is already aware, a few days before writing this, Firefox updated their
-   Terms of Use....
+    <title>Creating a Web Scraper - Thoughts on JavaScript and Why Archival is Necassary</title>
+    <link href="https://shandriy.github.io/./notes/2025/3/19.htm"/>
+    <id>./notes/2025/3/19.htm</id>
+    <updated>2025-3-19T00:00:00.000Z</updated>
+    <summary>   Note: Why a web scraper as opposed to a web crawler? Fundamentally, web
+   scrapers and crawlers are the same thing - what makes the difference is
+   more on whether it is malicious or not. For example, a web crawler
+   might be crawling pages to power a search engine, while a web scraper
+   might be trying to steal or rehost information from an entire website
+   automatically. I'm choosing to say web scraper here since, as of
+   writing, I have not implemented any support for the [1]robots.txt
+   standard - more on that later....
 
 References
 
-   1. https://www.mozilla.org/en-US/firefox/</summary>
+   1. https://en.wikipedia.org/wiki/Robots.txt</summary>
   </entry>
 </feed>
