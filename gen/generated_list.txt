@@ -1,6 +1,7 @@
 ./archive.htm
 ./changelog.htm
 ./index.htm
+./legacy/webring.htm
 ./notes/2024/11/17.htm
 ./notes/2024/11/23.htm
 ./notes/2024/11/30.htm

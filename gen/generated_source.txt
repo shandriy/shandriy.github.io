@@ -2,6 +2,8 @@
 ./md/archive.md
 ./md/changelog.md
 ./md/index.md
+./md/legacy
+./md/legacy/webring.md
 ./md/notes
 ./md/notes/2024
 ./md/notes/2024/11

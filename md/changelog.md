@@ -11,6 +11,7 @@ generic.htm
 
 ### 19/3/2025
 
+- Move [yuriring](/legacy/webring.htm) to legacy
 - Added [`ai.txt`](/ai.txt) file
 - Added [new blog post](/notes/2025/3/19.htm)
 
