@@ -2,127 +2,17 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>YURI WEBRING</title>
+  <title>YURI & YAOI WEBRING</title>
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <script>
-    (function() {
-      var ids = [
-        "sha",
-        "rki",
-        "ckn",
-        "ceu",
-        "kit",
-        "lbx",
-        "sol",
-        "spl",
-        "mya",
-        "gab",
-        "brk",
-        "cth",
-        "xsh",
-        "sdw",
-        "gay",
-        "sav",
-        "buh",
-        "nik",
-        "rin",
-        "blh",
-        "ppy",
-        "dna",
-        "ncy",
-        "mos",
-        "ani",
-        "vam",
-        "pkn",
-        "fsh",
-        "jam",
-        "lez",
-        "acy"
-      ];
-      var urls = [
-        "https://shandriy.github.io",
-        "https://zziz.nekoweb.org",
-        "https://coffeeknife.nekoweb.org",
-        "https://aroceu.com",
-        "https://kittyrave.club",
-        "https://otaku.nekoweb.org/",
-        "https://ultrakill.nekoweb.org",
-        "https://mappapapa.neocities.org",
-        "https://mimiya.nekoweb.org",
-        "https://chimerathing.neocities.org",
-        "https://brooklethill.nekoweb.org/",
-        "https://cthrsis.nukawinter.art/",
-        "https://dreamscape.nekoweb.org",
-        "https://sunfishdreamworld.neocities.org/",
-        "https://pussydestroyer2000.nekoweb.org",
-        "https://yumeoi.skin",
-        "https://pastel-skies.nekoweb.org",
-        "https://estranged.nekoweb.org",
-        "https://2rin.nekoweb.org",
-        "https://crystalclearcrystalline.neocities.org/",
-        "https://pawpyrus.art",
-        "https://hazardtoons.neocities.org/",
-        "https://harlequi.nz",
-        "https://moosen.neocities.org/",
-        "https://aniverbockt.neocities.org/",
-        "https://littlevampire.neocities.org/",
-        "https://gameboy.digital",
-        "https://nightmarefish.neocities.org/",
-        "https://shoals.neocities.org/",
-        "https://electraaa.nekoweb.org/index.html",
-        "https://acyfactory.com/"
-      ];
+    var hash = location.hash;
 
-      var hash = location.hash.substring(1,4).toLowerCase();
-      if (location.hash[1] == "{") {
-        hash = location.hash.substring(2,5).toLowerCase();
-      }
-
-      if (ids.indexOf(hash) == -1) {
-        addEventListener("DOMContentLoaded", function() {
-          document.body.innerHTML =
-            "Sorry! Looks like you aren't part of the webring yet or the identifier is wrong<br>" +
-            "<a href='https://shandriy.github.io/webring.htm'>Make sure you followed the instructions correctly if you are already marked as a member</a><br>" +
-            "If everything is correct, try CTRL + SHIFT + R"
-        })
-        throw void 0;
-      }
-
-      var move = parseInt(location.hash.substring(4));
-      if (location.hash[1] == "{") {
-        move = parseInt(location.hash.substring(6))
-      }
-      if (move != 0 && move != 1) move = move > 0 ? 1 : 0;
-      move = (move * 2 - 1);
-
-      var index = ids.indexOf(hash);
-      if (index > -1) {
-        if (typeof urls[index + move] != "string") {
-          index = move > 0 ? 0 : urls.length - 1;
-          move = 0;
-        }
-        setTimeout(function() {
-          location.replace(urls[index + move]);
-        }, 4000);
-      } else {
-        setTimeout(function() {
-          location.replace(urls[move > 0 ? 0 : urls.length - 1]);
-        }, 4000);
-      }
-    })()
+    location = "https://www.virtuagirl.net/webring.htm" + hash;
   </script>
 </head>
 <body>
-  Redirecting...
-
-  If redirect is incorrect, press CTRL + SHIFT + R while on this page.<br><br>
-
-  If you are owner of the website this widget is hosted on, please consider changing the URLs to follow the format "https://shandriy.github.io/legacy/*"<br>
-  E.G., "https://shandriy.github.io/legacy/static/webring.htm#sha0"<br><br>
-
-  Thank you!
-  <noscript>JavaScript is required, sorry!</noscript>
+  <noscript>Please enable JavaScript.</noscript>
 </body>
 </html>
